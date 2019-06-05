@@ -1,39 +1,99 @@
 ---
-layout: trails
+title: Take a walk through history on one of our heritage trails!
 ---
 
-# Routes to Roots
+Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.
 
-The Routes to Roots project was funded and created in 2018 through a grant of £35,900 from the Heritage Lottery Fund (HLF). Thanks to money raised by National Lottery players, the project aims to greatly raise the profile of Mossley Industrial Heritage Centre by increasing visitor numbers and encouraging children and adults to explore the heritage of Mossley in an engaging and fun way.
+![Montage of trail boards](https://placedog.net/200/200)
 
-A very busy few months for the Mossley Civic Society saw us designing five new heritage trails for our town. Volunteers worked alongside Green Monster Arts and pupils from all five primary schools to plot, walk, research stories, create characters and provide a narrative for the trails. A team of 134 project workers with ages ranging from 8 - 84, powered by a shared enthusiasm for heritage trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the Heritage Centre to ensure that the trails bring the Mossley of the past to life and spark a wider interest in the fantastic history right around us.
+[Learn more about the project]()
 
-## A Goose's Gander
+## Select a trail
 
-George the Goose and Year 3 pupils at All Saints School took ‘A Gooses’ Gander’ round Micklehurst and uncovered many weird and wonderful facts about people trading jars of wee for cloth and men who were dressed as shepherds but didn’t own any sheep! Their trail takes you back to the very early days of Mossley when otters and eagles visited the valley bottom and stepping stones crossed the river.
+### A Goose's Gander
+
+![Illustration of George the Goose](https://placedog.net/200/200)
+
+George the Goose takes you around Micklehurst to uncover weird and wonderful facts.
 
 [Follow the trail](/trails/gooses-gander)
 
-## A Dog's Life
+### A Dog's Life
 
-Shirley the Sheepdog rounded up the Year 6 children of St Joseph’s School and showed them what ‘A Dog’s Life’ was like in Mossley through the ages. Along the way they met famous people such as George Lawton and Ernest Sykes as well as a former Lord Mayor of Mossley otherwise known as Grandpa Sticks! A link to a small town in Australia was discovered along with the rather stinky details of emptying outside toilets.
+![Illustration of Shirley the Sheepdog](https://placedog.net/200/200)
 
-[Follow the trail](/trails/crow-flies)
+Shirley the Sheepdog will round you up and show you life in Mossley through the ages.
 
-## As the Crow Flies
+[See the trail](/trails/crow-flies)
 
-Mr Pickles the Crow and Year 5 at Milton St John’s School flew through the history of our town uncovering romantic adventures, waving men off to war and imagining the sound of hundreds of clogs clattering on cobbles. Pupils found blueprints of mill houses and shared stories from their grandparents, as well as learning about how children of their age would be working in the mills not so long ago. ‘As The Crow Flies’ shares these with you.
+### As the Crow Flies
 
-[Follow the trail](/trails/crow-flies)
+![Illustration of Mr Pickles](https://placedog.net/200/200)
 
-## A Bat’s Eye View
+Mr Pickles the Crow flies through our town sharing adventures of men off to war and children in the mills.
 
-Bugler Bat and Beech Class at St George’s School carried out research that took them to the Peninsular and Pyrenees Wars and back to the first Co-op shop in Tameside, travelling by both stagecoach and tram. Uncovering details of the tram crash, the story of Annaville Terrace and the role of Mossley in World War 2 were highlights of ‘A Bat’s Eye View’.
+[See the trail](/trails/crow-flies)
 
-[Follow the trail](/trails/bats-eye-view)
+### A Bat’s Eye View
 
-## A Horse’s Tale
+![Illustration of Bugler Bat](https://placedog.net/200/200)
 
-Hannah the Horse and Class 3 at Livingstone Primary School will take you on an incredible journey through time, telling ‘A Horse’s Tale’ of war, buns and bonfires! Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?
+Bugler Bat uncovers details of the tram crash, the story of Annaville Terrace and Mossley in World War 2.
 
-[Follow the trail](/trails/horses-tale)
+[See the trail](/trails/bats-eye-view)
+
+### A Horse’s Tale
+
+![Illustration of Hannah the horse](https://placedog.net/200/200)
+
+Hannah the Horse takes you on an incredible journey of war, buns & bonfires! (And murder and robbery!)
+
+[See the trail](/trails/horses-tale)
+
+{% include map.html %}
+
+## Information for schools
+
+Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and other local children’s groups.
+
+### What we can provide
+
+- A Tuesday morning or afternoon or evenings (at a time to be agreed).
+- An escort on the chosen trail if required (and volunteers are available).
+- Two volunteers at the heritage centre to provide a 30-45 minute workshop.
+- Specific topics/curriculum based topics can be requested.
+- Experts on many local topics on request.
+
+### What we need to know
+
+- The number of children.
+- The lead organiser and contact details.
+- Which trail(s) are you interested in.
+- Have you already completed any trails?
+- Any specific requests for workshops?
+- The day and time desired.
+
+[Get in touch today](/contact) [Download our form]()
+
+## About the Mossley Heritage Trails
+
+A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.
+
+![Photograph of a trail board](https://placedog.net/200/200)
+
+Volunteers worked alongside Green Monster Arts and pupils from all five Mossley primary schools to plot, walk, research stories, create characters and provide a narrative for five Mossley heritage trails.
+
+The project was grant funded by the National Lottery Heritage Fund.
+
+- Heritage Fund logo
+- Green Monster Arts logo
+
+[Back to the trails]()
+
+## Additional trails
+
+We have a few older trails which can be downloaded below as PDFs.
+
+- [Upper Mossley Trail]()
+- [Brookbottom & Roughtown Trail]()
+- [Mossley Blue Plaque Trail]()

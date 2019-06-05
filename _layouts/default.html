@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.3.2.min.css">
   <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:500|Work+Sans:400,500,600&display=swap" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
   <title>Mossley Heritage</title>
 </head>
 <body>
   <header>
+    <h2>Mossley Heritage</h2>
     {% include navigation.html %}
   </header>
   <main>
+    <h1>{{ page.title }}</h1>
     {{ content }}
   </main>
   <footer>

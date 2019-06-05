@@ -1,23 +1,33 @@
-# Mossley: the little, hilly, milly three-cornered town of Lancashire, Yorkshire & Cheshire
+---
+title: Discover the little, hilly, milly three-cornered town of Lancashire, Yorkshire & Cheshire.
+---
 
-Mossley is&hellip; (a little piece on it's importance and why you would visit)
+Mossley is a typical former mill town for the wool and cotton industry, discover how it grew from a hamlet with otters and eagles in the valley bottom to the thriving town it is today.
 
-[Learn more about our history]()
+[Our history](/history)
 
-## Take a walk on our heritage trails
+## Take a walk through history on a heritage trail
 
-Find out more about Mossley with the Heritage Trails around the town. You might have seen the signs already!
+Our colourful heritage boards popped up all over Mossley to celebrate the fantastic history right around us.
 
-[Learn more](/trails)
+![A montage of the heritage trail signs](https://placedog.net/200/200)
 
-## Visit our heritage centre
+There are five trails; each start at a Mossley primary school and end at the heritage centre.
 
-Take a trip down memory lane and discover the rich history of Mossley and the surrounding area at the Mossley Heritage Centre, located in the corner of one of Mossley’s oldest mills.
+## Uncover hidden stories at our heritage centre
 
-[Learn more](/visit)
+![A montage of some of the things you can find at the heritage centre](https://placedog.net/200/200)
 
-## Join the Civic Society
+Taking up a corner of Longlands Mill, the centre is packed with artefacts, archives and memorabilia of our incredible heritage.
 
-Founded in 1966, the society has been involved in all sorts around Mossley over the years. From footpath inspection and scrutiny of planning applications to presentations and working with local schools.
+[Learn more & plan your trip](/visit)
 
-[Learn more](civic-society)
+## Get involved
+
+Mossley Heritage is run by the Mossley Civic Society – come and join us!
+
+![An illustration of the heritage centre](https://placedog.net/200/200)
+
+The society, first established in 1966, is passionate about Mossley and promoting local history and alongside many local activities runs the Mossley Heritage Centre.
+
+[Mossley Civic Society](/civic-society)

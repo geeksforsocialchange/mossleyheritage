@@ -1,26 +1,7 @@
 ---
 layout: default
 ---
-
 {{ content }}
-
-<ol class="stops">
-  {% for stop in page.stops %}
-    <li class="stop">
-      <div class="stop__id">
-        Stop No. {{ forloop.index }}
-      </div>
-      <div class="stop__content">
-        <h2 class="stop__title">{{ stop.title }}</h2>
-        <p class="stop__year">{{ stop.year }}</p>
-        <div class="stop__description">
-          {{ stop.description | markdown }}
-        </div>
-      </div>
-      <img src="{{ stop.image }}" alt="An image of {{ stop.title }}" class="stop__image">
-    </li>
-  {% endfor %}
-</ol>
 
 <a href="">Previous Trail</a>
 <a href="/trails">Back to Trails</a>

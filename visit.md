@@ -1,32 +1,62 @@
-# Discover Mossley Heritage Centre
+---
+title: Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.
+---
 
-Take a trip down memory lane and discover the rich history of Mossley and the surrounding area at the Mossley Heritage Centre, located in the centre of one of Mossley’s oldest mills.
+The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.
+
+## Visiting the centre
+
+![Map showing how to get to the centre](https://placedog.net/200/200)
+
+The centre is located at Longlands Mill, Mossley, Queen Street, OL5 9AH.
+
+Queen Street is opposite Mossley railway station. The heritage centre is in the corner of the Emmaus courtyard at the far end of the car park.
+
+Admittance is free.
 
 ## Opening Times
 
-Closed Monday
-Tuesday 9am – 4:30pm
-Wednesday 9am – 4:30pm
-Thursday 9am – 4:30pm
-Friday 9am – 4:30pm
-Saturday 9am – 4:30pm
-Sunday 9am – 4:30pm
+Wednesday to Friday
+2.00pm – 4.00pm
 
-## How did we start?
+Saturday
+12.00pm – 2.00pm
 
-The idea of creating a heritage centre came from the strength of nostalgia backdrops for expressed by local residents when they came into the mill during an Emmaus example.
+## What can you investigate?
 
-open day soon after Emmaus Mossley bought the mill. It reminded them of their earlier years working or visiting the cotton mills in earlier times.
+{% include investigate.html %}
 
-The Heritage Lottery Fund awarded a grant to enable the creation of the Mossley Heritage Centre. In August 1996, Longlands Mill was purchased by Emmaus Mossley to provide 18 bedrooms (now 26), workshops and sales areas. By Christmas 1999, the conversion of Longlands Mill was completed with the generous help of the National Lottery Charities Board, English Partnerships and many individuals, companies and trusts.
+## Uncover the hidden stories of Mossley
 
-Our hope is that this look back into the history of the textile industry and social life of Mossley will be illuminating, and we invite you to support Emmaus Mossley in their work by visiting the mill shop and café.
+![A visitor browsing the centre](https://placedog.net/200/200)
 
-## Volunteer!
+Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?
 
-We’re always on the lookout for new volunteers to join our team of all ages and abilities, from only two hours a month and up. If you’d like to know more about getting involved, get in touch.
+![More visitors browsing the centre](https://placedog.net/200/200)
 
-## Proud to be part of Emmaus
+Learn the weird and wonderful stories of people trading jars of wee for cloth and the men who were dressed as shepherds but didn’t own any sheep!
 
-Emmaus is an independent charity which provides accommodation and work for previously homeless people through the collection and recycling of donated Edited to focus on household goods which are then repaired and sold. The organisation is an the history of the international federation of over 400 projects worldwide, all working on the same heritage centre, not basis of being self supporting. Emmaus.
-The government helped meet part of the initial running costs but, by the time the heritage centre opened, the Emmaus Mossley business was virtually self sufficient.
+[Arrange your visit](/visit)
+
+## Discover
+
+- Flying shuttles & bobbins
+- Cotton & clogs
+- Victorian schoolroom
+- Washboards & mangles
+- Carpet sweepers & knotters
+- Gazunders, slipper baths & commodes
+- Bottles & stone jars
+- Maps from over the years
+
+## Get involved
+
+The centre is run by Mossley Civic Society volunteers – come and join us!
+
+You don’t need to be an expert on local history, you just need to have an interest in Mossley and its heritage.
+
+Contact us at the heritage centre or on 01457 837 287 if you can spare any time (even an hour or two a month helps).
+
+[Get in touch](/contact)
+
+[Mossley Civic Society](/civic-society)
