@@ -6,7 +6,7 @@ The centre is occupied by a massive baling machine, artefacts, archives, memorab
 
 ## Visiting the centre
 
-![Map showing how to get to the centre](https://placedog.net/200/200)
+![Map showing how to get to the centre](/images/visit/MH_HeritageCentre_Map@2x.png)
 
 The centre is located at Longlands Mill, Mossley, Queen Street, OL5 9AH.
 

@@ -1,10 +1,8 @@
 ---
-title: Our History
+title: Explore some of the rich history and key events of Mossley’s past.
 ---
 
-## Explore some of the rich history and key events of Mossley’s past.
-
-![Illustration of some Mossley rooftops](https://placedog.net/200/200)
+![Illustration of some Mossley rooftops](/images/history/MH_Ourhistory_1_@2x.png)
 
 [Discover more at the centre](/visit)
 
@@ -15,4 +13,4 @@ title: Our History
 
 [Discover more at the centre](/visit)
 
-[Download History Resource List]()
+[Download History Resource List](/)

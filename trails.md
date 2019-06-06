@@ -4,51 +4,11 @@ title: Take a walk through history on one of our heritage trails!
 
 Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.
 
-![Montage of trail boards](https://placedog.net/200/200)
+![Montage of trail boards](/images/home/MH_TrailsPosters_@2x.png)
 
-[Learn more about the project]()
+[Learn more about the trails]()
 
-## Select a trail
-
-### A Goose's Gander
-
-![Illustration of George the Goose](https://placedog.net/200/200)
-
-George the Goose takes you around Micklehurst to uncover weird and wonderful facts.
-
-[Follow the trail](/trails/gooses-gander)
-
-### A Dog's Life
-
-![Illustration of Shirley the Sheepdog](https://placedog.net/200/200)
-
-Shirley the Sheepdog will round you up and show you life in Mossley through the ages.
-
-[See the trail](/trails/crow-flies)
-
-### As the Crow Flies
-
-![Illustration of Mr Pickles](https://placedog.net/200/200)
-
-Mr Pickles the Crow flies through our town sharing adventures of men off to war and children in the mills.
-
-[See the trail](/trails/crow-flies)
-
-### A Bat’s Eye View
-
-![Illustration of Bugler Bat](https://placedog.net/200/200)
-
-Bugler Bat uncovers details of the tram crash, the story of Annaville Terrace and Mossley in World War 2.
-
-[See the trail](/trails/bats-eye-view)
-
-### A Horse’s Tale
-
-![Illustration of Hannah the horse](https://placedog.net/200/200)
-
-Hannah the Horse takes you on an incredible journey of war, buns & bonfires! (And murder and robbery!)
-
-[See the trail](/trails/horses-tale)
+{% include trails.html %}
 
 {% include map.html %}
 
@@ -79,14 +39,15 @@ Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and 
 
 A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.
 
-![Photograph of a trail board](https://placedog.net/200/200)
+![Photograph of a trail board](/images/trails/MH_Trails_photo_of_boards_treated.jpg)
 
 Volunteers worked alongside Green Monster Arts and pupils from all five Mossley primary schools to plot, walk, research stories, create characters and provide a narrative for five Mossley heritage trails.
 
 The project was grant funded by the National Lottery Heritage Fund.
 
-- Heritage Fund logo
-- Green Monster Arts logo
+{% include logos/HeritageFund.svg %}
+
+![Green Monster Arts logo](/images/trails/MH_GreenMonsterArts@2x.png)
 
 [Back to the trails]()
 

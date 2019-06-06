@@ -1,0 +1,10 @@
+<h2>Select a trail</h2>
+
+{% for trail in site.data.trails %}
+  {% if trail.id != include.exclude %}
+  <h3>{{ trail.title }}</h3>
+  <img src="/images/animals/{{ trail.image }}">
+  <p>{{ trail.description }}</p>
+  <a href="/trails/{{ trail.id }}">See the trail</a>
+  {% endif %}
+{% endfor %}

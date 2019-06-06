@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
+{% assign trail = site.data.trails[page.trail] %}
+
+<img src="/images/animals/{{ trail.image }}" alt="An image of {{ trail.animal }}">
+
+<img src="/images/schools/{{ trail.school_logo }}" alt="{{ trail.school }}'s logo">
+
 {{ content }}
 
-<a href="">Previous Trail</a>
-<a href="/trails">Back to Trails</a>
-<a href="">Next Trail</a>
+{% include stops.html stops=trail.stops %}
+
+{% include trails.html exclude=trail.id %}

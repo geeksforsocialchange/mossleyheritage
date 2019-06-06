@@ -1,0 +1,45 @@
+-
+  id: gooses-gander
+  title: A Goose's Gander
+  animal: George the Goose
+  image: MH_TrailAnimal_Goose@2x.png
+  description: George the Goose takes you around Micklehurst to uncover weird and wonderful facts.
+  school: Micklehurst All Saints School
+  school_logo: MH_School_Micklehurst@2x.png
+  stops: goose
+-
+  id: dogs-life
+  title: A Dog's Life
+  animal: Shirley the Sheepdog
+  image: MH_TrailAnimal_Dog@2x.png
+  description: Shirley the Sheepdog will round you up and show you life in Mossley through the ages.
+  school: St Joseph's School
+  school_logo: MH_School_StJosephs@2x.png
+  stops: dog
+-
+  id: crow-flies
+  title: As the Crow Flies
+  animal: Mr Pickles the Crow
+  image: MH_TrailAnimal_Crow@2x.png
+  description: Mr Pickles the Crow flies through our town sharing adventures of men off to war and children in the mills.
+  school: Milton St John’s School
+  school_logo: MH_School_StJohns@2x.png
+  stops: crow
+-
+  id: bats-eye-view
+  title: A Bat’s Eye View
+  animal: Bugler Bat
+  image: MH_TrailAnimal_Bat@2x.png
+  description: Bugler Bat uncovers details of the tram crash, the story of Annaville Terrace and Mossley in World War 2.
+  school: St George’s School
+  school_logo: MH_School_StGeorges@2x.png
+  stops: bat
+-
+  id: horses-tale
+  title: A Horse’s Tale
+  animal: Hannah the Horse
+  image: MH_TrailAnimal_Horse@2x.png
+  description: Hannah the Horse takes you on an incredible journey of war, buns & bonfires! (And murder and robbery!)
+  school: Livingstone Primary School
+  school_logo: MH_School_Livingstone@2x.png
+  stops: horse

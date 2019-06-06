@@ -1,26 +1,47 @@
-# Mossley Civic Society
+---
+title: Mossley Civic Society
+---
 
-We’re passionate about Mossley and promoting our local history.
+![A photo of Mossley Civic Society](/images/civic-society/MH_CivicSociety_1_@2x.jpg)
 
-Founded in 1966, the society has been involved in all sorts around Mossley over the years. From footpath inspection and scrutiny of planning applications to presentations and working with local schools.
+In 1966, a year best known for England winning the World Cup, a group of stalwart citizens were so proud of their small town of Mossley that they determined to create an organisation which would observe, debate and aim to protect and celebrate the heritage of their community.
+
+And so the Mossley Civic Society was born.
 
 ## What do we do?
 
-We help run the Mossley Heritage Centre in the Emmaus building at Longlands Mill and we are members of Tameside Local History Forum.
+To celebrate our local heritage we share, listen, talk, display, present, teach, perform, write, collect, organise, stimulate, participate, explore and investigate.
 
-The society has been responsible for re-printing the Story of Mossley and the publication of Town Trails. Our members enjoy local walks, talks, events and outings.
+We do whatever we can to keep Mossley Heritage in the collective consciousness of Mossley folk.
 
-## Our Mission
+## What have we done?
 
- * To encourage high standards of architecture and town planning in the Borough of Mossley.
- * To stimulate public interest in and care for, the beauty history and character of the town and its surroundings.
- * To encourage the preservation, development and improvement of features of historic interest and general public amenities.
- * To pursue these ends through meetings, exhibitions, lectures, publications and other forms of instruction, by publicity and the promotion of schemes of a charitable nature.
+- Organised walks & trips to places of local historical interest.
+- Highlighted neglected areas.
+- Submitted plans for conservation areas.
+- Arranged presentations covering topics ranging from life in the workhouse to the meanings of old nursery rhymes.
+- Researched & analysed local history.
+- Worked closely with local schools.
+- Led protests (including processions, organising a flash mob and yarnstorming the market place!)
+- Joined Save Our Community Space initiatives.
+- Published trail leaflets.
+- Helped create a Blue Plaque Trail.
+- Created Mossley Heritage Trails.
 
-## Join the Civic Society
+## Who is in the Society?
 
-We’re always open for passionate local folks to join the society who would love to take part in our events and activities around Mossley.
+All of this work has been done by a small group of local volunteers, some of who have been members for decades.
 
-The Civic Society manages the volunteers who staff the Mossley Heritage Centre and we’re always on the lookout for new volunteers to join our team of all ages and abilities, from only two hours a month and up.
+The committee consists of up to 14 members while the whole group numbers between 40 and 50, all of whom are passionate about Mossley.
 
-If you’re interested in volunteering or to come along to one of our monthly committee meetings, contact Dyllis Wolinski on 01457 837 287 or fill in one of our questionnaire sheets.
+## Volunteering with the Society
+
+Civic Society members can volunteer for the Heritage Centre rota, provide support during special events, link with school and community groups, offer specialist advice, attend presentations or simply be on our mailing list to support our projects.
+
+Contact Dyllis Wolinski on 01457 837 287 or fill in our form which is available at the centre and downloadable below.
+
+[Download form](/)
+
+## Enjoy our events that celebrate Mossley
+
+Photograph taken at our Extraordinary Women event. 

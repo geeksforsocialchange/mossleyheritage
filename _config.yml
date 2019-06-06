@@ -1,14 +1,36 @@
 collections_dir: collections
+
 collections:
   goose:
     output: true
     permalink: /trails/gooses-gander/stops/:title
   timeline:
+    output: false
 
-#
-# defaults:
-#   - scope:
-#       path: ""
-#       type: trails
-#     values:
-#       layout: trail
+
+defaults:
+  - scope:
+      path: ""
+      type: "bat"
+    values:
+      layout: "stop"
+  - scope:
+      path: ""
+      type: "crow"
+    values:
+      layout: "stop"
+  - scope:
+      path: ""
+      type: "dog"
+    values:
+      layout: "stop"
+  - scope:
+      path: ""
+      type: "goose"
+    values:
+      layout: "stop"
+  - scope:
+      path: ""
+      type: "horse"
+    values:
+      layout: "stop"
