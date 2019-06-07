@@ -1,4 +1,7 @@
 .scheme
+  .dark-colour
+    color: $home-dark
+    fill: $home-dark
   *
     border-color: $home-light
   .section--filled *
@@ -6,13 +9,24 @@
   .section__textured *
     border-color: $home-dark
   &--trail
+    .dark-colour
+      color: $trails-dark
+      fill: $trails-dark
     *
+      border-color: $trails-light
+    .section--textured h2
       border-color: $trails-dark
     .btn a
-      background: $trails-dark
+      background: $trails-light
   &--history
+    .dark-colour
+      color: $history-dark
+      fill: $history-dark
     *
       border-color: $history-light
   &--visit
+    .dark-colour
+      color: $centre-dark
+      fill: $centre-dark
     *
       border-color: $centre-light

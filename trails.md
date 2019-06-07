@@ -17,7 +17,7 @@ Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and hi
 
 {% include map.html %}
 
-<section class="section section--centred section--filled">
+<section class="section section--centred section--filled" markdown="1">
 <div class="lozenge" markdown="1">
 ## Information for schools
 
@@ -42,10 +42,9 @@ Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and 
 - Any specific requests for workshops?
 - The day and time desired.
 {:.plain}
-
+</div>
 [Get in touch today](/contact) [Download our form]()
 {:.btn .btn--3}
-</div>
 </section>
 
 <section class="section" markdown="1">
@@ -59,9 +58,9 @@ Volunteers worked alongside Green Monster Arts and pupils from all five Mossley 
 
 The project was grant funded by the National Lottery Heritage Fund.
 
-{% include logos/HeritageFund.svg %}
-
-![Green Monster Arts logo](/images/trails/MH_GreenMonsterArts@2x.png)
+- ![Heritage Lottery Fund logo](/images/trails/HeritageFund.svg)
+- ![Green Monster Arts logo](/images/trails/MH_GreenMonsterArts@2x.png)
+{:.reset .supporters}
 
 [Back to the trails]()
 {:.btn}
