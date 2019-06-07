@@ -1,0 +1,29 @@
+.trails
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  li
+    flex: 1 1 46.5%
+    margin-bottom: 2rem
+    &:nth-child(2n - 1)
+      margin-right: $page-gutter / 2
+    &:nth-child(2n)
+      margin-left: $page-gutter / 2
+    &:nth-child(5)
+      flex: 0 1 50%
+  h3
+    display: inline-block
+    &:after
+      content: ''
+      display: block
+      padding-top: 0.5rem
+      width: 80%
+      margin: 0 auto
+      border-width: 0 0 3px 0
+      border-style: solid
+      border-color: $trails-dark
+  .btn
+    padding: 0.1em 1em
+  p
+    font-size: 0.75rem
+    line-height: 1.5

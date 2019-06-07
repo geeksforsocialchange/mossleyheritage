@@ -1,42 +1,55 @@
-<h2>Keep up to date</h2>
+<section class="section section--filled footer__facebook">
+  <div class="lozenge">
+    <h2>Keep up to date</h2>
 
-<p>Follow us on Facebook to see what's happening with Mossley Heritage.</p>
+    <p class="bigger">Follow us on Facebook to see what's happening with Mossley Heritage.</p>
 
- <a href="https://www.facebook.com/mossleyheritage">Visit our Facebook page</a>
+     <a class="btn btn--3" href="https://www.facebook.com/mossleyheritage">Visit our Facebook page</a>
+   </div>
+</section>
+<section class="section footer__main">
+  <div class="footer__sitemap">
+    <h5>Sitemap</h5>
 
- <h5>Sitemap</h5>
+    <ul class="reset">
+     {% for item in site.data.menu %}
+       <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
+     {% endfor %}
+    </ul>
+  </div>
 
-{% include navigation.html %}
+  <div class="footer__legal">
+    <h5>Legal</h5>
 
-<h5>Legal</h5>
+    <ul class="reset">
+      <li><a href="">Privacy Policy</a></li>
+      <li><a href="">Terms of Service</a></li>
+    </ul>
+  </div>
 
-<ul>
-  <li><a href="">Privacy Policy</a></li>
-  <li><a href="">Terms of Service</a></li>
-</ul>
+  <div class="footer__impressum">
+    <h5>Mossley Heritage</h5>
 
-<h5>Mossley Heritage</h5>
+    <p>
+      <strong>T:</strong> 01457 838 608<br>
+      <strong>E:</strong> <a href="mailto:hello@mossleyheritage.org">hello@mossleyheritage.org</a><br>
+      <strong>F:</strong> <a href="https://www.facebook.com/mossleyheritage">facebook.com/mossleyheritage</a><br><br>
 
-<p>
-  T: 01457 838 608<br>
-  E: <a href="mailto:hello@mossleyheritage.org">hello@mossleyheritage.org</a><br>
-  F: <a href="https://www.facebook.com/mossleyheritage">facebook/mossleyheritage</a><br><br>
+      Longlands Mill, Queen Street, Mossley,<br>
+      Ashton-under-Lyne OL5 5AH<br><br>
+      &copy; 2019 Mossley Civic Society
+    </p>
+  </div>
 
-  Longlands Mill, Queen Street, Mossley,<br>
-  Ashton-under-Lyne OL5 5AH<br><br>
-  &copy; 2019 Mossley Civic Society
-</p>
+  <div class="footer__supporters">
+    <h5>Supported by</h5>
+    <ul class="reset footer__supporters-list">
+      <li>{% include logos/HeritageFund.svg %}</li>
+      <li>{% include logos/EmmausLogo.svg %}</li>
+    </ul>
+  </div>
 
-
-<h5>Supported by</h5>
-
-<ul>
-  <li>National Lottery Heritage Fund
-    {% include logos/HeritageFund.svg %}
-  </li>
-  <li>Emmaus
-    {% include logos/EmmausLogo.svg %}
-  </li>
-</ul>
-
-<a href="https://gfsc.studio">gfsc.studio</a> + <a href="http://designbysquid.co.uk">designbysquid.co.uk</a>
+  <div class="footer__credit">
+    Site by <a href="https://gfsc.studio">gfsc.studio</a> + <a href="http://designbysquid.co.uk">designbysquid.co.uk</a>
+  </div>
+</section>

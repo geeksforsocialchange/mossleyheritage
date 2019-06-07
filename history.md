@@ -1,5 +1,6 @@
 ---
 title: Explore some of the rich history and key events of Mossley’s past.
+scheme: history
 ---
 
 ![Illustration of some Mossley rooftops](/images/history/MH_Ourhistory_1_@2x.png)

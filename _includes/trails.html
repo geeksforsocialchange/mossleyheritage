@@ -1,10 +1,14 @@
 <h2>Select a trail</h2>
-
+<p>Each trail was researched by one of Mossley’s schools and takes you across seven places exploring our local history!</p>
+<ul class="trails reset">
 {% for trail in site.data.trails %}
   {% if trail.id != include.exclude %}
-  <h3>{{ trail.title }}</h3>
-  <img src="/images/animals/{{ trail.image }}">
-  <p>{{ trail.description }}</p>
-  <a href="/trails/{{ trail.id }}">See the trail</a>
+  <li>
+    <h3>{{ trail.title }}</h3>
+    <img src="/images/animals/{{ trail.image }}">
+    <p>{{ trail.description }}</p>
+    <a class="btn btn--2" href="/trails/{{ trail.id }}">See the trail</a>
+  </li>
   {% endif %}
 {% endfor %}
+</ul>

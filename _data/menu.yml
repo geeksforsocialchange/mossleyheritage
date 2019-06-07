@@ -1,0 +1,15 @@
+-
+  url:
+  name: Home
+-
+  url: trails
+  name: Take a trail
+-
+  url: history
+  name: Our history
+-
+  url: visit
+  name: Visit the centre
+-
+  url: contact
+  name: Get in touch

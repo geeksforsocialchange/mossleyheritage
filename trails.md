@@ -1,20 +1,28 @@
 ---
 title: Take a walk through history on one of our heritage trails!
+scheme: trail
 ---
-
+<section class="section section--first" markdown="1">
 Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.
 
 ![Montage of trail boards](/images/home/MH_TrailsPosters_@2x.png)
 
 [Learn more about the trails]()
+{:.btn}
+</section>
 
+<section class="section section--textured section--centred">
 {% include trails.html %}
+</section>
 
 {% include map.html %}
 
+<section class="section section--centred section--filled">
+<div class="lozenge" markdown="1">
 ## Information for schools
 
 Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and other local children’s groups.
+{:.bigger}
 
 ### What we can provide
 
@@ -23,6 +31,7 @@ Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and 
 - Two volunteers at the heritage centre to provide a 30-45 minute workshop.
 - Specific topics/curriculum based topics can be requested.
 - Experts on many local topics on request.
+{:.plain}
 
 ### What we need to know
 
@@ -32,9 +41,14 @@ Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and 
 - Have you already completed any trails?
 - Any specific requests for workshops?
 - The day and time desired.
+{:.plain}
 
 [Get in touch today](/contact) [Download our form]()
+{:.btn .btn--3}
+</div>
+</section>
 
+<section class="section" markdown="1">
 ## About the Mossley Heritage Trails
 
 A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.
@@ -50,7 +64,10 @@ The project was grant funded by the National Lottery Heritage Fund.
 ![Green Monster Arts logo](/images/trails/MH_GreenMonsterArts@2x.png)
 
 [Back to the trails]()
+{:.btn}
+</section>
 
+<section class="section section--centred section--filled" markdown="1">
 ## Additional trails
 
 We have a few older trails which can be downloaded below as PDFs.
@@ -58,3 +75,5 @@ We have a few older trails which can be downloaded below as PDFs.
 - [Upper Mossley Trail]()
 - [Brookbottom & Roughtown Trail]()
 - [Mossley Blue Plaque Trail]()
+{:.btn .btn--3 .reset}
+</section>

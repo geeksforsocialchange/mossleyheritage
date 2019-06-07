@@ -1,8 +1,51 @@
 body
-  font-family: 'Work Sans', sans-serif
+  font-family: $sans
+  font-weight: 400
+  letter-spacing: -0.01rem
+  line-height: 1.5
+
+h1, h2, h3, .h1, .h2, .h3
+  font-family: $serif
   font-weight: 400
 
-h1, h2, h3
-  font-family: 'Inknut Antiqua', 'Georgia', serif
-  font-weight: 500
-  line-height: 1.2
+// Page title
+h1, .h1
+  font-size: 1.875rem
+  line-height: 1.166667em
+  letter-spacing: -0.04rem
+
+// Page subtitles
+h2, .h2
+  font-size: 1.875rem
+  line-height: 1.166667em
+  letter-spacing: -0.04rem
+  padding-bottom: 0.6em
+  border-width: 0 0 3px 0
+  border-style: solid
+
+h3, .h3
+  font-size: 1.125rem
+  line-height: 1.44444em
+  letter-spacing: -0.03rem
+
+// Footer links
+h5, .h5
+  font-size: 1rem
+  line-height: 1.44444em
+  letter-spacing: -0.01rem
+  font-weight: 600
+  padding-bottom: 0.75rem
+  margin-bottom: 0.75rem
+  margin-top: 0.25rem
+  border-width: 0 0 2px 0
+  border-style: solid
+
+// Larger intro paragraphs
+p.bigger
+  font-size: 1.125rem
+
+a
+  color: $black
+  transition-duration: 0.3s
+  &:hover
+    color: $home-dark

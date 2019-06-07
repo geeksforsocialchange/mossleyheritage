@@ -1,9 +1,7 @@
-<nav role="navigation">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/trails">Take a trail</a></li>
-    <li><a href="/history">Our history</a></li>
-    <li><a href="/visit">Visit the centre</a></li>
-    <li><a href="/contact">Get in touch</a></li>
+<nav role="navigation" class="navigation" id="js--navigation__menu">
+  <ul class="reset">
+    {% for item in site.data.menu %}
+      <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
+    {% endfor %}
   </ul>
 </nav>

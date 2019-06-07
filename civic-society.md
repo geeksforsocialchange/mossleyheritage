@@ -10,6 +10,8 @@ And so the Mossley Civic Society was born.
 
 ## What do we do?
 
+![A photo of a talk at the centre](/images/civic-society/MH_CivicSociety_2_Whatdowedo@2x.jpg)
+
 To celebrate our local heritage we share, listen, talk, display, present, teach, perform, write, collect, organise, stimulate, participate, explore and investigate.
 
 We do whatever we can to keep Mossley Heritage in the collective consciousness of Mossley folk.
@@ -30,11 +32,15 @@ We do whatever we can to keep Mossley Heritage in the collective consciousness o
 
 ## Who is in the Society?
 
+![A photo of some of the Civic Society members](/images/civic-society/MH_CivicSociety_3_Who@2x.jpg)
+
 All of this work has been done by a small group of local volunteers, some of who have been members for decades.
 
 The committee consists of up to 14 members while the whole group numbers between 40 and 50, all of whom are passionate about Mossley.
 
 ## Volunteering with the Society
+
+![Some illustrations of the area](/images/civic-society/MH_CivicSociety_4_Volunteer@2x.png)
 
 Civic Society members can volunteer for the Heritage Centre rota, provide support during special events, link with school and community groups, offer specialist advice, attend presentations or simply be on our mailing list to support our projects.
 
@@ -44,4 +50,6 @@ Contact Dyllis Wolinski on 01457 837 287 or fill in our form which is available 
 
 ## Enjoy our events that celebrate Mossley
 
-Photograph taken at our Extraordinary Women event. 
+![A photograph taken at our Extraordinary Women event](/images/civic-society/MH_CivicSociety_5_Enjoy@2x.jpg)
+
+Photograph taken at our Extraordinary Women event.

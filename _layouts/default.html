@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css">
-  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:500|Work+Sans:400,500,600&display=swap" rel="stylesheet">
-  <link href="/css/styles.css" rel="stylesheet">
-  <title>Mossley Heritage</title>
-</head>
-<body>
-  <header>
-    <h2>Mossley Heritage</h2>
-    {% include logos/MH_logo.svg %}
-    {% include navigation.html %}
-  </header>
-  <main>
-    {% if page.layout == 'trail' or page.layout == 'stop' %}
-      <img src="/images/trails/MH_Trail_Banner_Transp@2x.png" alt="Mossley Heritage Trails">
-    {% endif %}
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-  </main>
-  <footer>
-    {% include footer.html %}
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css">
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:400|Work+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+
+    <title>Mossley Heritage</title>
+  </head>
+  <body class="scheme scheme--{{ page.scheme }}">
+    <header class="header">
+      <h2>Mossley Heritage</h2>
+      <a href="/">
+        {% include logos/MH_logo.svg %}
+      </a>
+      <button class="reset header__toggle" id="js--navigation__toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="59" viewBox="0 0 44 59">
+          <title>Toggle menu</title>
+          <g id="Group_102" data-name="Group 102" transform="translate(-166 -839)">
+            <line id="Line_80" data-name="Line 80" x2="44" transform="translate(166 841.5)" fill="none" stroke="#222" stroke-width="5"/>
+            <line id="Line_81" data-name="Line 81" x2="44" transform="translate(166 855.5)" fill="none" stroke="#222" stroke-width="5"/>
+            <line id="Line_82" data-name="Line 82" x2="44" transform="translate(166 869.5)" fill="none" stroke="#222" stroke-width="5"/>
+            <text id="MENU" transform="translate(166 882)" fill="#009cb1" font-size="14" font-family="WorkSans-SemiBold, Work Sans" font-weight="600" letter-spacing="-0.01em"><tspan x="1.371" y="13">MENU</tspan></text>
+          </g>
+        </svg>
+      </button>
+      {% include navigation.html %}
+    </header>
+    <main class="main">
+      {% if page.layout == 'trail' or page.layout == 'stop' %}
+        <img src="/images/trails/MH_Trail_Banner_Transp@2x.png" alt="Mossley Heritage Trails">
+      {% endif %}
+      <h1 class="main__title">{{ page.title }}</h1>
+      {{ content }}
+    </main>
+    <footer class="footer">
+      {% include footer.html %}
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
