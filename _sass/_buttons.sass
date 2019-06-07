@@ -2,8 +2,6 @@ $clip: 7px
 
 .btn a, a.btn
   display: inline-block
-  color: $black
-  background: $home-light
   text-decoration: none
   font-size: 1.25rem
   font-weight: 600
@@ -14,17 +12,21 @@ $clip: 7px
   clip-path: polygon(0% #{$clip}, #{$clip} 0%, calc(100% - #{$clip}) 0%, 100% #{$clip}, 100% calc(100% - #{$clip}), calc(100% - #{$clip}) 100%, #{$clip} 100%, 0 calc(100% - #{$clip}))
   &:hover
     color: $white
-    background: $black
+
+.btn--1 a, a.btn--1
+  color: $black
+  background: $home-light
+  &:hover
+    background: $black !important
 
 .btn--2 a, a.btn--2
   background: transparent
   border-width: 2px
   border-style: solid
   &:hover
-    color: $white
     background: $home-dark
 
 .btn--3 a, a.btn--3
   background: $white
   &:hover
-    background: $black
+    background: $black !important

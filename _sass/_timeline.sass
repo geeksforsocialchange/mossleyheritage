@@ -1,0 +1,19 @@
+.timeline
+  li
+    padding: 2rem $page-gutter
+    &:nth-child(2n - 1)
+      background: $history-light
+      .event__year
+        color: $white
+    &:nth-child(2n)
+      background: $white
+      .event__year
+        color: $history-light
+
+.event
+  &__year
+    display: block
+    margin-bottom: 1em
+    font-size: 1.875rem
+  &__title
+    font-size: 1.25rem

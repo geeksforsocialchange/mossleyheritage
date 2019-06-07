@@ -8,7 +8,7 @@ Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and hi
 ![Montage of trail boards](/images/home/MH_TrailsPosters_@2x.png)
 
 [Learn more about the trails]()
-{:.btn}
+{:.btn .btn--1}
 </section>
 
 <section class="section section--textured section--centred">
@@ -63,7 +63,7 @@ The project was grant funded by the National Lottery Heritage Fund.
 {:.reset .supporters}
 
 [Back to the trails]()
-{:.btn}
+{:.btn .btn--1}
 </section>
 
 <section class="section section--centred section--filled" markdown="1">

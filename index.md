@@ -9,7 +9,7 @@ scheme: home
 Mossley is a typical former mill town for the wool and cotton industry, discover how it grew from a hamlet with otters and eagles in the valley bottom to the thriving town it is today.
 
 [Our history](/history)
-{:.btn}
+{:.btn .btn--1}
 
 </section>
 
@@ -51,4 +51,4 @@ Mossley Heritage is run by the Mossley Civic Society – come and join us!
 The society, first established in 1966, is passionate about Mossley and promoting local history and alongside many local activities runs the Mossley Heritage Centre.
 
 [Mossley Civic Society](/civic-society)
-{:.btn}
+{:.btn .btn--1}

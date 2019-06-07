@@ -16,14 +16,26 @@
       border-color: $trails-light
     .section--textured h2
       border-color: $trails-dark
-    .btn a
+    .btn--1 a, a.btn--1
       background: $trails-light
+    .btn--2 a, a.btn--2
+      &:hover
+        color: $white
+        background: $trails-dark
+        border-color: $trails-dark
   &--history
     .dark-colour
       color: $history-dark
       fill: $history-dark
     *
       border-color: $history-light
+    .btn--1 a, a.btn--1
+      background: $history-light
+    .btn--2 a, a.btn--2
+      &:hover
+        color: $white
+        background: $history-dark
+        border-color: $history-dark
   &--visit
     .dark-colour
       color: $centre-dark
