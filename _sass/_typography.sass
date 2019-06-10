@@ -5,12 +5,16 @@ body
   line-height: 1.5
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+  +for-tablet-landscape-up
+    font-size: 1.125rem
+    line-height: 1.44444
+  +for-desktop-up
+    font-size: 1.25rem
+    line-height: 1.4
 
 a
   color: $black
   transition-duration: 0.3s
-  &:hover
-    color: $home-dark
 
 h1, h2, h3, .h1, .h2, .h3
   font-family: $serif
@@ -21,6 +25,16 @@ h1, .h1
   font-size: 1.875rem
   line-height: 1.166667em
   letter-spacing: -0.04rem
+  +for-tablet-portrait-up
+    font-size: 2.8125rem
+    line-height: 1.28888
+    padding-right: 10%
+  +for-tablet-landscape-up
+    font-size: 1.875rem
+    line-height: 1.333333
+  +for-desktop-up
+    font-size: 2.8125rem
+    line-height: 1.28888
 
 // Page subtitles
 h2, .h2
@@ -30,6 +44,13 @@ h2, .h2
   padding-bottom: 0.6em
   border-width: 0 0 3px 0
   border-style: solid
+  +for-tablet-portrait-up
+    font-size: 2.1875rem
+    line-height: 1.14286
+    letter-spacing: -0.03rem
+
+h2.narrow
+  width: 60%
 
 h3, .h3
   font-size: 1.125rem
@@ -48,11 +69,25 @@ h5, .h5
   border-width: 0 0 2px 0
   border-style: solid
 
+p.narrow
+  width: 50%
+
 // Larger intro paragraphs
 p.bigger
   font-size: 1.125rem
+  +for-tablet-landscape-up
+    font-size: 1.25rem
+    line-height: 1.5
+  +for-desktop-up
+    font-size: 1.5rem
+    line-height: 1.33333rem
 
-.spacer
+p.bigger--on-portrait
+  +for-tablet-portrait-up
+    font-size: 1.125rem
+    line-height: 1.4444
+
+p.spacer
   margin-bottom: 5rem !important
 
 .no-underline

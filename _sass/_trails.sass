@@ -1,16 +1,22 @@
 .trails
   display: flex
   flex-wrap: wrap
-  justify-content: space-around
+  justify-content: center
   li
     flex: 1 1 46.5%
     margin-bottom: 2rem
-    &:nth-child(2n - 1)
-      margin-right: $page-gutter / 2
-    &:nth-child(2n)
-      margin-left: $page-gutter / 2
-    &:nth-child(5)
-      flex: 0 1 50%
+    +for-phone-only
+      &:nth-child(2n - 1)
+        margin-right: $page-gutter / 2
+      &:nth-child(2n)
+        margin-left: $page-gutter / 2
+      &:nth-child(5)
+        flex: 0 1 50%
+    +for-tablet-portrait-up
+      flex: 0 1 30%
+      margin: 0 0.5rem
+    +for-tablet-landscape-up
+      flex: 0 1 18%
   h3
     display: inline-block
     &:after

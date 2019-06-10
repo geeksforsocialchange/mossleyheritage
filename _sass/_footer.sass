@@ -17,3 +17,11 @@
     grid-area: supporters
   &__credit
     grid-area: credit
+  +for-tablet-portrait-up
+    &__main
+      grid-template-columns: 2fr 1fr 1fr
+      grid-template-areas: "impressum sitemap legal" "supporters . ." "credit . ."
+  +for-desktop-up
+    &__main
+      grid-template-columns: 4fr 2fr 2fr 4fr
+      grid-template-areas: "impressum sitemap legal supporters" "credit . . ."

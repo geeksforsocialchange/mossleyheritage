@@ -12,3 +12,45 @@ body
 
 .footer
   margin: 0 $page-gutter
+
+.layout
+  +for-tablet-portrait-up
+    @supports(display: grid)
+      display: grid
+      grid-gap: 0 3rem
+      grid-template-columns: 1fr 1fr
+      &__image, &__text
+        width: 100%
+      &__image
+        grid-area: image
+      &__text
+        grid-area: text
+      &__text-top
+        grid-area: text-top
+      &__text-bottom
+        grid-area: text-bottom
+
+.layout--intro
+  +for-tablet-portrait-up
+    &__image, &__text
+      width: 45%
+      display: inline-block
+      vertical-align: top
+    &__image
+      margin-right: 5%
+    @supports (display: grid)
+      grid-template-areas: "text image"
+
+.layout--image-overflow
+    +for-tablet-portrait-up
+      @supports (display: grid)
+        .layout__image
+          overflow: visible
+          width: 120%
+
+.layout--main
+  +for-tablet-portrait-up
+    @supports (display: grid)
+      grid-template-areas: "text-top image" "text-bottom image"
+      &__image
+        grid-row: span 2

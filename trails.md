@@ -2,13 +2,17 @@
 title: Take a walk through history on one of our heritage trails!
 scheme: trail
 ---
-<section class="section section--first" markdown="1">
-Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.
 
-![Montage of trail boards](/images/home/MH_TrailsPosters_@2x.png)
-
-[Learn more about the trails]()
-{:.btn .btn--1}
+<section class="section section--first">
+  <div class="layout layout--intro layout--image-overflow">
+    <div class="layout__image">
+      <img src="/images/home/MH_TrailsPosters_@2x.png" alt="Montage of trail boards">
+    </div>
+    <div class="layout__text">
+      <p class="bigger--on-portrait">Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.</p>
+      <p><a class="btn btn--1" href="/">Learn more about the trails</a></p>
+    </div>
+  </div>
 </section>
 
 <section class="section section--textured section--centred">

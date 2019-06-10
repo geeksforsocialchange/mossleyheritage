@@ -6,8 +6,9 @@ title: If you’d like to contact us about any aspect of Mossley Heritage, we wo
 ## Get in touch, call or email us
 {:.h3}
 
-T: 01457 83 8608
-E: hello@mossleyheritage.org
+- **T:** 01457 83 8608
+- **E:** [hello@mossleyheritage.org](mailto:hello@mossleyheritage.org)
+{:.reset}
 </section>
 
 <section class="section" markdown="1">
