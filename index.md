@@ -17,15 +17,18 @@ scheme: home
   </div>
 </section>
 
-<section class="section section--textured">
-  <h2 class="narrow">Take a walk through history on a heritage trail</h2>
-  <p class="bigger--on-portrait narrow">Our colourful heritage boards popped up all over Mossley to celebrate the fantastic history right around us.</p>
-  <img src="/images/home/MH_TrailsPosters_@2x.png" alt="A montage of the heritage trail signs" class="index--take-a-walk">
-  <p  class="narrow">There are five trails; each start at a Mossley primary school and end at the heritage centre.</p>
-  <p ><a class="btn btn--2" href="/trails">Learn more</a></p>
-</section>
+<div class="textured">
+  <section class="section">
+    <h2 class="narrow">Take a walk through history on a heritage trail</h2>
+    <p class="bigger--on-portrait narrow">Our colourful heritage boards popped up all over Mossley to celebrate the fantastic history right around us.</p>
+    <img src="/images/home/MH_TrailsPosters_@2x.png" alt="A montage of the heritage trail signs" class="index--take-a-walk">
+    <p  class="narrow">There are five trails; each start at a Mossley primary school and end at the heritage centre.</p>
+    <p ><a class="btn btn--2" href="/trails">Learn more</a></p>
+  </section>
+</div>
 
-<section class="section section--filled" markdown="1">
+<div class="filled">
+<section class="section" markdown="1">
 
 ## Uncover hidden stories at our heritage centre
 {:.narrow}
@@ -38,6 +41,7 @@ Taking up a corner of Longlands Mill, the centre is packed with artefacts, archi
 [Learn more & plan your trip](/visit){:.btn .btn--3}
 
 </section>
+</div>
 
 <section class="section">
   <div class="layout layout--main layout--image-overflow layout--switch-left">

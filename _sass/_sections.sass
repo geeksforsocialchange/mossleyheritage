@@ -1,45 +1,52 @@
 .section
-  padding: 2rem 0 2.5rem
-  margin-left: -$page-gutter
-  margin-right: -$page-gutter
-  padding-left: $page-gutter
-  padding-right: $page-gutter
   background-size: cover
   overflow: hidden
+  padding-top: 2rem
+  padding-bottom: 2.5rem
+  padding-left: $page-margin-mobile
+  padding-right: $page-margin-mobile
+  +for-tablet-portrait-up
+    padding-left: $page-margin-portrait
+    padding-right: $page-margin-portrait
+  +for-tablet-landscape-up
+    padding-left: $page-margin-landscape
+    padding-right: $page-margin-landscape
+  +for-desktop-up
+    max-width: 93rem
+    overflow: visible
+    margin: 0 auto
   &--first
     padding-top: 0
     padding-bottom: 1rem
-  &--textured
-    background-size: cover
-    background-position: center
-    *
-      border-color: $home-dark
-  &--filled *
-    border-color: $white
   &--centred
     text-align: center
   &--full-width
     padding-left: 0
     padding-right: 0
 
-.scheme .section
-  &--filled
-    background-color: $home-light
-  &--textured
-    background-color: $home-light
-    background-image: url('/images/home/MH_Trails_Texture_RGB_2500_blue.jpg')
 
-.scheme--trail .section
-  &--filled
+.textured
+  background-size: cover
+  background-position: center
+  background-color: $home-light
+  background-image: url('/images/home/MH_Trails_Texture_RGB_2500_blue.jpg')
+  *
+    border-color: $home-dark
+
+.filled
+  background-color: $home-light
+
+.scheme--trail
+  .filled
     background-color: $trails-light
-  &--textured
+  .textured
     background-color: $trails-light
     background-image: url('/images/trails/MH_Trails_Texture_RGB_2500_orange.jpg')
 
-.scheme--history .section
-  &--filled
+.scheme--history
+  .filled
     background-color: $history-light
 
 .scheme--visit .section
-  &--filled
+  .filled
     background-color: $centre-light

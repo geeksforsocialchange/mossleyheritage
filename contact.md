@@ -15,8 +15,6 @@ title: Contact us
   </div>
 </section>
 
-
-
 <section class="section" markdown="1">
 ## Get in touch, call or email us
 {:.h3}
