@@ -1,11 +1,20 @@
 ---
-title: Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.
+title: Visit us
 scheme: visit
 ---
-<section class="section section--first" markdown="1">
-![Photo of the centre](/images/visit/MH_HeritageCentre_Exterior@2x.jpg)
 
-The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.
+<section class="section section--first">
+  <div class="layout layout--intro layout--image-overflow">
+    <div class="layout__text-top">
+      <h1 class="main__title">Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.</h1>
+    </div>
+    <div class="layout__image">
+      <img src="/images/visit/MH_HeritageCentre_Exterior@2x.jpg" alt="A photo of the centre">
+    </div>
+    <div class="layout__text-bottom">
+      <p class="bigger--on-portrait">The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.</p>
+    </div>
+  </div>
 </section>
 
 <section class="section section--filled" markdown="1">

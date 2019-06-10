@@ -1,13 +1,19 @@
 ---
 title: Mossley Civic Society
 ---
-
-<section class="section section--first" markdown="1">
-![A photo of Mossley Civic Society](/images/civic-society/MH_CivicSociety_1_Intro@2x.jpg)
-
-In 1966, a year best known for England winning the World Cup, a group of stalwart citizens were so proud of their small town of Mossley that they determined to create an organisation which would observe, debate and aim to protect and celebrate the heritage of their community.
-
-And so the Mossley Civic Society was born.
+<section class="section section--first">
+  <div class="layout layout--intro layout--image-overflow">
+    <div class="layout__text-top">
+      <h1 class="main__title">Mossley Civic Society</h1>
+    </div>
+    <div class="layout__image">
+      <img src="/images/civic-society/MH_CivicSociety_1_Intro@2x.jpg" alt="A photo of Mossley Civic Society">
+    </div>
+    <div class="layout__text-bottom">
+      <p class="bigger--on-portrait">In 1966, a year best known for England winning the World Cup, a group of stalwart citizens were so proud of their small town of Mossley that they determined to create an organisation which would observe, debate and aim to protect and celebrate the heritage of their community.</p>
+      <p>And so the Mossley Civic Society was born.</p>
+    </div>
+  </div>
 </section>
 
 <section class="section section--filled" markdown="1">
