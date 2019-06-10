@@ -13,9 +13,9 @@ body
 .footer
   margin: 0 $page-gutter
 
-.layout
-  +for-tablet-portrait-up
-    @supports(display: grid)
+@supports(display: grid)
+  .layout
+    +for-tablet-portrait-up
       display: grid
       grid-gap: 0 3rem
       grid-template-columns: 1fr 1fr
@@ -23,6 +23,7 @@ body
         width: 100%
       &__image
         grid-area: image
+        margin-top: 5rem
       &__text
         grid-area: text
       &__text-top
@@ -30,27 +31,34 @@ body
       &__text-bottom
         grid-area: text-bottom
 
-.layout--intro
-  +for-tablet-portrait-up
-    &__image, &__text
-      width: 45%
-      display: inline-block
-      vertical-align: top
-    &__image
-      margin-right: 5%
-    @supports (display: grid)
-      grid-template-areas: "text image"
+  // Utility class to make layouts spill out right over the page edge
+  .layout--image-overflow
+    .layout__image
+      +for-tablet-portrait-up
+        overflow: visible
+        width: 120%
+      +for-tablet-landscape-up
+        width: 100%
 
-.layout--image-overflow
+  // Main layout used for text and image blocks
+  .layout--main
     +for-tablet-portrait-up
-      @supports (display: grid)
-        .layout__image
-          overflow: visible
-          width: 120%
-
-.layout--main
-  +for-tablet-portrait-up
-    @supports (display: grid)
       grid-template-areas: "text-top image" "text-bottom image"
       &__image
         grid-row: span 2
+
+  .layout--intro
+    +for-tablet-portrait-up
+      grid-template-areas: "text-top text-top" "text-bottom image"
+      &__image
+        grid-row: span 2
+    +for-tablet-landscape-up
+      grid-template-areas: "text-top image" "text-bottom image"
+      &__image
+        grid-row: span 1
+
+  .layout--switch-left
+    +for-tablet-landscape-up
+      grid-template-areas: "image text-top" "image text-bottom"
+      &__image
+        grid-row: span 1

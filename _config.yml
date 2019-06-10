@@ -4,9 +4,18 @@ collections:
   goose:
     output: true
     permalink: /trails/gooses-gander/stops/:title
-  timeline:
-    output: false
-
+  dog:
+    output: true
+    permalink: /trails/dogs-life/stops/:title
+  crow:
+    output: true
+    permalink: /trails/crow-flies/stops/:title
+  bat:
+    output: true
+    permalink: /trails/bats-eye-view/stops/:title
+  horse:
+    output: true
+    permalink: /trails/horses-tale/stops/:title
 
 defaults:
   - scope:

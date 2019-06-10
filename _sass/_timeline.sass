@@ -1,6 +1,7 @@
 .timeline
   li
     padding: 2rem $page-gutter
+    max-height: 25rem
     &:nth-child(2n - 1)
       background: $history-light
       .event__year
@@ -12,8 +13,46 @@
 
 .event
   &__year
-    display: block
-    margin-bottom: 1em
+    margin-bottom: 0.5em
     font-size: 1.875rem
+    font-family: $serif
+    +for-desktop-up
+      font-size: 2.1875rem
   &__title
     font-size: 1.25rem
+    margin-top: 0.5rem
+    +for-desktop-up
+      font-size: 2.1875rem
+  &__description
+    margin-top: 0 !important
+  &__image
+    text-align: center
+    img
+      +bevel(1rem)
+      max-height: 18rem
+
+@supports (display: grid)
+  +for-tablet-portrait-up
+    .timeline li
+      display: grid
+      grid-template-columns: 5fr 1fr 4fr
+      grid-template-rows: auto auto 1fr
+      grid-template-areas: "year year year" "title . image" "description . image"
+      align-items: start
+    .event__year
+      grid-area: year
+    .event__title
+      grid-area: title
+    .event__image
+      grid-area: image
+      grid-row: span 2
+    .event__description
+      grid-area: description
+  +for-desktop-up
+    .timeline li
+      grid-template-columns: 1fr 6fr 5fr
+      grid-template-rows: auto 1fr
+      grid-template-areas: "year title image" ". description image"
+      grid-gap: 0 $page-gutter
+    .event__year
+      display: inline-block
