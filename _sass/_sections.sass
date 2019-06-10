@@ -11,13 +11,17 @@
   &--textured
     background-size: cover
     background-position: center
+    *
+      border-color: $home-dark
+  &--filled *
+    border-color: $white
   &--centred
     text-align: center
   &--full-width
     padding-left: 0
     padding-right: 0
 
-.scheme--home .section
+.scheme .section
   &--filled
     background-color: $home-light
   &--textured
@@ -34,3 +38,7 @@
 .scheme--history .section
   &--filled
     background-color: $history-light
+
+.scheme--visit .section
+  &--filled
+    background-color: $centre-light

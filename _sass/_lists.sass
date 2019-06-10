@@ -5,3 +5,26 @@ ul.plain
     margin-bottom: 1rem
     font-size: 0.875rem
     line-height: 1.4286
+
+ul.opening-times
+  strong
+    display: block
+  li
+    margin: 1rem 0
+  &--bigger
+    font-size: 1.125rem
+    
+ul.bulleted
+  list-style: none
+  font-size: 1.125rem
+  text-align: left
+  margin-left: 1rem
+  padding-left: 0
+  li
+    margin-bottom: 1rem
+  li::before
+    content: '\2022'
+    color: $white
+    display: inline-block
+    width: 1rem
+    margin-left: -1rem

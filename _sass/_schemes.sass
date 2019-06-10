@@ -1,14 +1,14 @@
 .scheme
+  a:hover
+    color: $home-dark
   .dark-colour
     color: $home-dark
     fill: $home-dark
   *
     border-color: $home-light
-  .section--filled *
-    border-color: $white
-  .section__textured *
-    border-color: $home-dark
   &--trail
+    a:hover
+      color: $trails-dark
     .dark-colour
       color: $trails-dark
       fill: $trails-dark
@@ -24,6 +24,8 @@
         background: $trails-dark
         border-color: $trails-dark
   &--history
+    a:hover
+      color: $history-dark
     .dark-colour
       color: $history-dark
       fill: $history-dark
@@ -37,8 +39,12 @@
         background: $history-dark
         border-color: $history-dark
   &--visit
+    a:hover
+      color: $centre-dark
     .dark-colour
       color: $centre-dark
       fill: $centre-dark
     *
       border-color: $centre-light
+    .btn--1 a
+      background: $centre-light

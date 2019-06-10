@@ -6,6 +6,12 @@ body
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
+a
+  color: $black
+  transition-duration: 0.3s
+  &:hover
+    color: $home-dark
+
 h1, h2, h3, .h1, .h2, .h3
   font-family: $serif
   font-weight: 500
@@ -46,8 +52,9 @@ h5, .h5
 p.bigger
   font-size: 1.125rem
 
-a
-  color: $black
-  transition-duration: 0.3s
-  &:hover
-    color: $home-dark
+.spacer
+  margin-bottom: 5rem !important
+
+.no-underline
+  border-bottom: 0
+  padding-bottom: 0
