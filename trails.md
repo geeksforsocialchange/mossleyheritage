@@ -18,13 +18,16 @@ scheme: trail
   </div>
 </section>
 
-<section class="section section--textured section--centred">
+<div class="textured">
+<section class="section section--centred">
 {% include trails.html %}
 </section>
+</div>
 
 {% include map.html %}
 
-<section class="section section--centred section--filled" markdown="1">
+<div class="filled">
+<section class="section section--centred" markdown="1">
 <div class="lozenge" markdown="1">
 ## Information for schools
 
@@ -53,6 +56,7 @@ Mossley Trail and Heritage Workshop for Primary School Children Key Stage 2 and 
 [Get in touch today](/contact) [Download our form]()
 {:.btn .btn--3}
 </section>
+</div>
 
 <section class="section" markdown="1">
 ## About the Mossley Heritage Trails
@@ -73,7 +77,8 @@ The project was grant funded by the National Lottery Heritage Fund.
 {:.btn .btn--1}
 </section>
 
-<section class="section section--centred section--filled" markdown="1">
+<div class="filled">
+<section class="section section--centred" markdown="1">
 ## Additional trails
 
 We have a few older trails which can be downloaded below as PDFs.
@@ -83,3 +88,4 @@ We have a few older trails which can be downloaded below as PDFs.
 - [Mossley Blue Plaque Trail]()
 {:.btn .btn--3 .reset}
 </section>
+</div>

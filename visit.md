@@ -17,7 +17,8 @@ scheme: visit
   </div>
 </section>
 
-<section class="section section--filled" markdown="1">
+<div class="filled">
+<section class="section" markdown="1">
 ## Visiting the centre
 
 The centre is located at Longlands Mill, Mossley, Queen Street, OL5 9AH.
@@ -35,6 +36,7 @@ Admittance is free.
 - **Saturday** 12.00pm – 2.00pm
 {:.reset .opening-times .opening-times--bigger}
 </section>
+</div>
 
 <section class="section section--centred" markdown="1">
 ## What can you investigate?
@@ -42,24 +44,27 @@ Admittance is free.
 {% include investigate.html %}
 </section>
 
-<section class="section section--filled" markdown="1">
+<div class="filled">
+<section class="section" markdown="1">
 ## Uncover the hidden stories of Mossley
 
 ![A visitor browsing the centre](/images/visit/MH_HeritageCentre_Uncover1@2x.jpg)
 
 Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?
 </section>
+</div>
 
 <section class="section" markdown="1">
 ![More visitors browsing the centre](/images/visit/MH_HeritageCentre_Uncover2@2x.jpg)
 
 Learn the weird and wonderful stories of people trading jars of wee for cloth and the men who were dressed as shepherds but didn’t own any sheep!
 
-[Arrange your visit](/visit)
-{:.btn .btn--1}
+[Arrange your visit](/visit){:.btn .btn--1}
 </section>
 
-<section class="section section--filled" markdown="1">
+
+<div class="filled">
+<section class="section">
 <div class="lozenge" markdown="1">
 ## Discover
 
@@ -74,6 +79,7 @@ Learn the weird and wonderful stories of people trading jars of wee for cloth an
 {:.bulleted}
 </div>
 </section>
+</div>
 
 <section class="section" markdown="1">
 ## Get involved

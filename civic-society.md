@@ -16,7 +16,8 @@ title: Mossley Civic Society
   </div>
 </section>
 
-<section class="section section--filled" markdown="1">
+<div class="filled" markdown="1">
+<section class="section" markdown="1">
 ## What do we do?
 {:.no-underline}
 
@@ -26,6 +27,7 @@ To celebrate our local heritage we share, listen, talk, display, present, teach,
 
 We do whatever we can to keep Mossley Heritage in the collective consciousness of Mossley folk.
 </section>
+</div>
 
 <section class="section" markdown="1">
 <div class="lozenge" markdown="1">
@@ -57,7 +59,8 @@ All of this work has been done by a small group of local volunteers, some of who
 The committee consists of up to 14 members while the whole group numbers between 40 and 50, all of whom are passionate about Mossley.
 </section>
 
-<section class="section section--filled" markdown="1">
+<div class="filled" markdown="1">
+<section class="section" markdown="1">
 ## Volunteering with the Society
 
 ![Some illustrations of the area](/images/civic-society/MH_CivicSociety_4_Volunteer@2x.png)
@@ -66,9 +69,9 @@ Civic Society members can volunteer for the Heritage Centre rota, provide suppor
 
 Contact Dyllis Wolinski on 01457 837 287 or fill in our form which is available at the centre and downloadable below.
 
-[Download form](/)
-{.btn btn--3}
+[Download form](/){:.btn btn--1}
 </section>
+</div>
 
 <section class="section" markdown="1">
 ## Enjoy our events that celebrate Mossley

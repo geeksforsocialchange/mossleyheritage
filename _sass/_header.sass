@@ -2,13 +2,15 @@
   h2
     display: none
   &__logo
-    margin: 1.5rem 0 1.6rem $page-margin-mobile
+    margin: 1.5rem 0 1.6rem 0
     width: 83px
     height: 64.87px
-    +for-tablet-portrait-up
-      margin-left: $page-margin-portrait
-    +for-tablet-landscape-up
-      margin-left: $page-margin-landscape
+    // +for-tablet-portrait-up
+    //   margin-left: $page-margin-portrait
+    // +for-tablet-landscape-up
+    //   margin-left: $page-margin-landscape
+  &__home-link
+    display: inline-block
   &__toggle
     float: right
     margin-top: 2.25rem !important
@@ -82,8 +84,8 @@
       background: transparent
       padding-right: 0
       margin-top: 3.5rem
-      margin-right: $page-margin-mobile
     li
+      margin-right: 0
       padding: 0 0 0 1rem
     a
       color: $black
