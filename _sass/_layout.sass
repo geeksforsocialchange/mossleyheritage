@@ -66,54 +66,60 @@ body
       .layout__image
         grid-row: span 2
 
-// Index page special cases
+  //
+  // Index page special cases
+  //
 
-.layout--index-uncover
-  // Grid starts at portrait
-  +for-tablet-portrait-up
-    display: block
-    img
-      padding-left: 10%
-      padding-right: 10%
-  +for-tablet-landscape-up
-    display: grid
-    grid-template-areas: "text-top image" "text-bottom image"
-    grid-template-columns: 7fr 9fr
-    img
-      padding: 0
-    h2:after
-      width: 90%
-    .narrow
-      width: 100%
-    .layout__image
-      grid-row: span 2
-      width: calc(100% + 4rem)
-      overflow: visible
+  .layout--index-uncover
+    // Grid starts at portrait
+    +for-tablet-portrait-up
+      display: block
+      img
+        padding-left: 10%
+        padding-right: 10%
+    +for-tablet-landscape-up
+      display: grid
+      grid-template-areas: "text-top image" "text-bottom image"
+      grid-template-columns: 7fr 9fr
+      img
+        padding: 0
+      h2:after
+        width: 90%
+      .narrow
+        width: 100%
+      .layout__image
+        grid-row: span 2
+        width: calc(100% + 4rem)
+        overflow: visible
 
-.layout--index-trails
-  // Grid starts at portrait
-  +for-tablet-portrait-up
-    display: block
-    img
-      padding-left: 10%
-      padding-right: 10%
-      margin-top: -3rem
-
-  +for-tablet-landscape-up
-    display: grid
-    img
-      padding-left: 0
-      padding-right: 0
-      margin-top: 2rem
-    .narrow
-      width: 100%
-    h2:after
-      width: 100%
-
-.layout--get-involved
-  +for-tablet-portrait-up
-    .layout__text-bottom
-      p:first-child
+  .layout--index-trails
+    // Grid starts at portrait
+    +for-tablet-portrait-up
+      display: block
+      img
+        padding-left: 10%
+        padding-right: 10%
+        margin-top: -3rem
+    +for-tablet-landscape-up
+      display: grid
+      img
+        padding-left: 0
+        padding-right: 0
+        margin-top: 2rem
+      .narrow
+        width: 100%
+      h2:after
+        width: 100%
+    +for-desktop-up
+      p.bigger--on-portrait
+        font-size: 1.25rem
+        line-height: 1.4
         margin-top: 0
-    img
-      margin-top: 2rem
+
+  .layout--get-involved
+    +for-tablet-portrait-up
+      .layout__text-bottom
+        p:first-child
+          margin-top: 0
+      img
+        margin-top: 2rem
