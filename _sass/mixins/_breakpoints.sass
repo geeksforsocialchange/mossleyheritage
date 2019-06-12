@@ -1,19 +1,28 @@
+$break-tablet-portrait: 640px
+$break-tablet-landscape: 1024px
+$break-desktop: 1300px
+$break-big-desktop: 1600px
+
 =for-phone-only
-  @media (max-width: 639px)
+  @media (max-width: $break-tablet-portrait - 1)
     @content
 
 =for-tablet-portrait-up
-  @media (min-width: 640px)
+  @media (min-width: $break-tablet-portrait)
+    @content
+
+=for-tablet-portrait-only
+  @media (min-width: $break-tablet-portrait) and (max-width: $break-tablet-landscape - 1)
     @content
 
 =for-tablet-landscape-up
-  @media (min-width: 1024px)
+  @media (min-width: $break-tablet-landscape)
     @content
 
 =for-desktop-up
-  @media (min-width: 1300px)
+  @media (min-width: $break-desktop)
     @content
 
 =for-big-desktop-up
-  @media (min-width: 1600px)
+  @media (min-width: $break-big-desktop)
     @content

@@ -18,18 +18,22 @@ scheme: history
   </div>
 </section>
 
-<section class="section section--full-width">
+
 <ul class="reset timeline">
 {% for event in site.data.timeline %}
   <li class="event">
-    <div class="event__year">{{ event.year }}</div>
-    <h3 class="event__title">{{ event.title }}</h3>
-    <div class="event__image"><img src="/images/timeline/{{ event.image }}"></div>
-    <p class="event__description">{{ event.description }}</p>
+    <div class="section">
+      <div class="event__year">{{ event.year }}</div>
+      <h3 class="event__title">{{ event.title }}</h3>
+      <div class="event__image"><img src="/images/timeline/{{ event.image }}"></div>
+      {% if event.description %}
+        <p class="event__description">{{ event.description }}</p>
+      {% endif %}
+    </div>
   </li>
 {% endfor %}
 </ul>
-</section>
+
 
 <section class="section section--centred" markdown="1">
 [Discover more at the centre](/visit) [Download History Resource List](/)

@@ -1,7 +1,6 @@
 .timeline
   li
-    padding: 2rem $page-gutter
-    max-height: 25rem
+    padding: 0 $page-gutter
     &:nth-child(2n - 1)
       background: $history-light
       .event__year
@@ -24,7 +23,10 @@
     +for-desktop-up
       font-size: 2.1875rem
   &__description
-    margin-top: 0 !important
+    &:last-child
+      margin-bottom: 0 !important
+    +for-tablet-portrait-up
+      margin-top: 0 !important
   &__image
     text-align: center
     img
@@ -33,7 +35,7 @@
 
 @supports (display: grid)
   +for-tablet-portrait-up
-    .timeline li
+    .timeline li .section
       display: grid
       grid-template-columns: 5fr 1fr 4fr
       grid-template-rows: auto auto 1fr
@@ -49,7 +51,7 @@
     .event__description
       grid-area: description
   +for-desktop-up
-    .timeline li
+    .timeline li .section
       grid-template-columns: 1fr 6fr 5fr
       grid-template-rows: auto 1fr
       grid-template-areas: "year title image" ". description image"
