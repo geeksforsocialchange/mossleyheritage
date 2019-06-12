@@ -14,7 +14,6 @@
   &__toggle
     float: right
     margin-top: 2.25rem !important
-    margin-right: $page-margin-mobile !important
     cursor: pointer
     svg
       line
@@ -35,61 +34,23 @@
   +for-tablet-landscape-up
     border-width: 0 0 8px 0
     border-style: solid
+    position: relative
     &__logo
       width: 128px
       height: 100.04px
-      margin-top: 2.5rem
-      margin-bottom: 3rem
+      margin-top: 2rem
+      margin-bottom: 2.5rem
     &__toggle
       display: none
-
-.navigation
-  font-family: $serif
-  font-weight: 400
-  line-height: 1.5
-  border-width: 8px 0 0 0
-  border-style: solid
-  &--hide ul
-    display: none
-  ul
-    padding: 2rem 0 !important
-    background: $black
-  li
-    text-align: center
-    padding: 0.75rem 0
-  a
-    text-decoration: none
-    color: $white
-    font-size: 1.875rem
-    letter-spacing: -0.01rem
-
-  +for-tablet-portrait-up
-    ul
-      text-align: center
-      padding: 1.4rem 0 !important
-    li
-      display: inline-block
-      margin: 0 1rem
-    a
-      font-size: 1.125rem
-      letter-spacing: -0.03rem
-
-  +for-tablet-landscape-up
-    &--hide ul
-      display: block
-    display: inline-block
-    float: right
-    border-width: 0
-    ul
-      background: transparent
-      padding-right: 0
-      margin-top: 3.5rem
-    li
-      margin-right: 0
-      padding: 0 0 0 1rem
-    a
-      color: $black
-
-  +for-desktop-up
-    a
-      font-size: 1.25rem
+    &__menu
+      position: absolute
+      top: 0
+      right: $page-margin-landscape
+  @media (min-width: 93rem)
+    &__menu
+      // $page-max-width - ($page-margin-landscape * 2)
+      width: $page-max-width - 10rem
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto

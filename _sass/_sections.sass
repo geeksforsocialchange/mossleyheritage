@@ -12,7 +12,7 @@
     padding-left: $page-margin-landscape
     padding-right: $page-margin-landscape
   +for-desktop-up
-    max-width: 93rem
+    max-width: $page-max-width
     overflow: visible
     margin: 0 auto
   &--first
@@ -26,6 +26,17 @@
   &--no-space
     padding-top: 0
     padding-bottom: 0
+  // &--header
+  //   border-width: 0 0 8px 0
+  //   border-style: solid
+
+.section--on-desktop
+  +for-desktop-up
+    padding-left: $page-margin-landscape
+    padding-right: $page-margin-landscape
+    max-width: $page-max-width
+    overflow: visible
+    margin: 0 auto
 
 .textured
   background-size: cover
@@ -37,6 +48,8 @@
 
 .filled
   background-color: $home-light
+  *
+    border-color: $white
 
 .scheme--trail
   .filled

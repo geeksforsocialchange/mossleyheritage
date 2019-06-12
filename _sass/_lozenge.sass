@@ -4,14 +4,15 @@
   border-image-source: url('/images/shapes/lozenge.svg')
   border-image-slice: 30
   margin: 0.25rem 0
-  padding: 2rem
+  padding: 2rem 0rem
   h2
     margin-top: 0
-    margin-bottom: 0.5rem
+    margin-bottom: 2rem
     border-bottom-width: 0
     &::after
-      padding-top: 2.5rem
-      width: 70%
+      padding-top: 2rem
+      width: 50%
+
   h3
     &::after
       padding-top: 1rem
@@ -24,3 +25,6 @@
       border-width: 0 0 3px 0
       border-style: solid
       border-color: $white
+  +for-desktop-up
+    width: 83.33333%
+    margin: 0 auto

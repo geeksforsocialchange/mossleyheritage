@@ -15,24 +15,28 @@
   </head>
   <body class="scheme scheme--{{ page.scheme }}">
     <header class="header">
-      <section class="section section--no-space">
-        <h2>Mossley Heritage</h2>
-        <a href="/" class="header__home-link">
-          {% include logos/MH_logo.svg %}
-        </a>
-        <button class="reset header__toggle" id="js--navigation__toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="59" viewBox="0 0 44 59">
-            <title>Toggle menu</title>
-            <g transform="translate(-166 -839)">
-              <line x2="44" transform="translate(166 841.5)"/>
-              <line x2="44" transform="translate(166 855.5)"/>
-              <line x2="44" transform="translate(166 869.5)"/>
-              <text transform="translate(166 882)" class="dark-colour"><tspan x="1.371" y="13">MENU</tspan></text>
-            </g>
-          </svg>
-        </button>
+      <div class="header__branding">
+        <div class="section section--no-space">
+          <h2>Mossley Heritage</h2>
+          <a href="/" class="header__home-link">
+            {% include logos/MH_logo.svg %}
+          </a>
+          <button class="reset header__toggle" id="js--navigation__toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="59" viewBox="0 0 44 59">
+              <title>Toggle menu</title>
+              <g transform="translate(-166 -839)">
+                <line x2="44" transform="translate(166 841.5)"/>
+                <line x2="44" transform="translate(166 855.5)"/>
+                <line x2="44" transform="translate(166 869.5)"/>
+                <text transform="translate(166 882)" class="dark-colour"><tspan x="1.371" y="13">MENU</tspan></text>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="header__menu">
         {% include navigation.html %}
-      </section>
+      </div>
     </header>
     <main class="main">
       {% if page.layout == 'trail' or page.layout == 'stop' %}
