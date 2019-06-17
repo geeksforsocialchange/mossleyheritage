@@ -3,7 +3,7 @@ title: Visit us
 scheme: visit
 ---
 
-<section class="section">
+<section class="section section--thin">
   <div class="layout layout--intro">
     <h1 class="layout__title">Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.</h1>
     <div class="layout__image">

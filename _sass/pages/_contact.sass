@@ -1,0 +1,43 @@
+.contact-header
+  h1
+    padding-bottom: 0
+  img
+    display: none
+  +for-tablet-landscape-up
+    h1, img
+      display: inline-block
+    h1
+      width: 55%
+      vertical-align: top
+    img
+      margin-left: $page-gutter
+      margin-top: 3rem
+      width: 40%
+      width: calc(44% - #{$page-gutter})
+
+.contact-options
+  .h3
+    font-size: 1.25rem
+    &:after
+      margin-top: 1rem
+  &__block
+    margin-bottom: 3rem
+  +for-tablet-portrait-up
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: $page-gutter
+    grid-auto-flow: dense
+  +for-tablet-landscape-up
+    grid-template-columns: 1fr 1fr 1fr
+
+.contact__image-footer
+  +for-phone-only
+    width: 80%
+    margin-bottom: 5rem
+  +for-tablet-portrait-up
+    overflow: visible
+    img
+      max-width: none
+      width: 120%
+  +for-tablet-landscape-up
+    display: none
