@@ -40,7 +40,11 @@
     </header>
     <main class="main">
       {% if page.layout == 'trail' or page.layout == 'stop' %}
-        <img src="/images/trails/MH_Trail_Banner_Transp@2x.png" alt="Mossley Heritage Trails">
+        <div class="filled">
+          <section class="section">
+            <img src="/images/trails/MH_Trail_Banner_Transp@2x.png" alt="Mossley Heritage Trails">
+          </div>
+        </div>
       {% endif %}
       {{ content }}
     </main>

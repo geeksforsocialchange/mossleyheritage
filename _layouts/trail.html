@@ -3,12 +3,17 @@ layout: default
 ---
 {% assign trail = site.data.trails[page.trail] %}
 
-<img src="/images/animals/{{ trail.image }}" alt="An image of {{ trail.animal }}">
+<section class="section section--centred">
+<h1 class="underline">{{ trail.title }}</h1>
 
-<img src="/images/schools/{{ trail.school_logo }}" alt="{{ trail.school }}'s logo">
+<div class="trail-logos">
+  <img src="/images/animals/{{ trail.image }}" alt="An image of {{ trail.animal }}">
+  <img src="/images/schools/{{ trail.school_logo }}" alt="{{ trail.school }}'s logo">
+</div>
 
 {{ content }}
 
 {% include stops.html stops=trail.stops %}
 
 {% include trails.html exclude=trail.id %}
+</section>
