@@ -3,12 +3,21 @@
     padding: 0 $page-gutter
     &:nth-child(2n - 1)
       background: $history-light
+      .event__description
+        border-color: $white
       .event__year
         color: $white
     &:nth-child(2n)
       background: $white
+      .event__description
+        border-color: $history-light
       .event__year
         color: $history-light
+    +for-tablet-landscape-up
+      padding-top: 1rem
+      padding-bottom: 1em
+    +for-desktop-up
+      padding-top: 2rem
 
 .event
   &__year
@@ -20,26 +29,37 @@
   &__title
     font-size: 1.25rem
     margin-top: 0.5rem
+    +for-tablet-landscape-up
+      font-size: 1.875rem
+      line-height: 1.33333
     +for-desktop-up
       font-size: 2.1875rem
   &__description
     &:last-child
       margin-bottom: 0 !important
     +for-tablet-portrait-up
-      margin-top: 0 !important
+      border-width: 3px 0 0 0
+      border-style: solid
+      padding-top: 1.5em
+    +for-tablet-landscape-up
+      width: 75%
   &__image
     text-align: center
     img
       +bevel(1rem)
       max-height: 18rem
+    +for-tablet-portrait-only
+      margin-left: 3rem
+    +for-tablet-portrait-up
+      margin-left: 1rem
 
 @supports (display: grid)
   +for-tablet-portrait-up
     .timeline li .section
       display: grid
-      grid-template-columns: 5fr 1fr 4fr
+      grid-template-columns: 5fr 4fr
       grid-template-rows: auto auto 1fr
-      grid-template-areas: "year year year" "title . image" "description . image"
+      grid-template-areas: "year year" "title image" "description image"
       align-items: start
     .event__year
       grid-area: year
@@ -55,6 +75,6 @@
       grid-template-columns: 1fr 6fr 5fr
       grid-template-rows: auto 1fr
       grid-template-areas: "year title image" ". description image"
-      grid-gap: 0 $page-gutter
+      grid-gap: 0 3rem
     .event__year
       display: inline-block

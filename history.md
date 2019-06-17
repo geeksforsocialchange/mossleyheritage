@@ -3,17 +3,15 @@ title: History
 scheme: history
 ---
 
-<section class="section section--first">
+<section class="section">
   <div class="layout layout--intro layout--image-overflow">
-    <div class="layout__text-top">
-      <h1 class="main__title">Explore some of the rich history and key events of Mossley’s past.</h1>
-    </div>
+    <h1 class="layout__title">Explore some of the rich history and key events of Mossley’s past.</h1>
     <div class="layout__image">
       <img src="/images/history/MH_Ourhistory_1_@2x.png" alt="Illustration of some Mossley rooftops">
     </div>
-    <div class="layout__text-bottom">
-      <p class="bigger--on-portrait">Mossley is a typical former mill town for the wool and cotton industry, discover how it grew from a hamlet with otters and eagles in the valley bottom to the thriving town it is today.</p>
-      <p><a class="btn btn--1" href="/visit">Discover more at the heritage centre</a></p>
+    <div class="layout__text-top">
+      <p>Mossley has a rich history of... and needs some text here.</p>
+      <p><a class="btn btn--1" href="/visit">Discover more at the centre</a></p>
     </div>
   </div>
 </section>
@@ -36,6 +34,6 @@ scheme: history
 
 
 <section class="section section--centred" markdown="1">
-[Discover more at the centre](/visit) [Download History Resource List](/)
-{:.btn .btn--1}
+[Discover more at the centre](/visit){:.btn .btn--1} [Download History Resource List](/){:.btn .btn--1}
+
 </section>

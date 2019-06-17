@@ -51,6 +51,20 @@
   *
     border-color: $white
 
+.filled--additional-trails
+  +for-tablet-portrait-up
+    background-image: url('/images/trails/MH_Trail_Additional_Left@2x.png'), url('/images/trails/MH_Trail_Additional_Right@2x.png')
+    background-position: -8rem 15rem, 125% 10rem
+    background-repeat: no-repeat, no-repeat
+    background-size: 40%, 40%
+  +for-tablet-landscape-up
+    background-position: 0% 13rem, 100% 10rem
+    background-size: 30%, 30%
+    padding-bottom: 5rem
+  +for-desktop-up
+    background-position: 0rem 12rem, right 2rem top 1rem
+    background-size: 35%, 30%
+
 .scheme--trail
   .filled
     background-color: $trails-light

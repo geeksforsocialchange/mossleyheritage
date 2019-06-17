@@ -2,16 +2,14 @@
 title: Welcome to Mossley Heritage
 scheme: home
 ---
-<section class="section section--first">
+<section class="section">
   <div class="layout layout--intro layout--image-overflow">
-    <div class="layout__text-top">
-      <h1 class="main__title">Discover the little, hilly, milly three-cornered town of Lancashire, Yorkshire & Cheshire.</h1>
-    </div>
+    <h1 class="layout__title">Discover the little, hilly, milly three-cornered town of Lancashire, Yorkshire & Cheshire.</h1>
     <div class="layout__image">
       <img src="/images/home/MH_Homepage_Top@2x.jpg" alt="An illustration of Mossley">
     </div>
-    <div class="layout__text-bottom">
-      <p class="bigger--on-portrait">Mossley is a typical former mill town for the wool and cotton industry, discover how it grew from a hamlet with otters and eagles in the valley bottom to the thriving town it is today.</p>
+    <div class="layout__text-top">
+      <p class="bigger--on-portrait">Mossley is a typical former mill town for the wool and cotton industry. Discover how it grew from a hamlet with otters and eagles in the valley bottom to the thriving town it is today.</p>
       <p><a class="btn btn--1" href="/history">Our history</a></p>
     </div>
   </div>

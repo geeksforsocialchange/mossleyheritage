@@ -3,15 +3,13 @@ title: Trails
 scheme: trail
 ---
 
-<section class="section section--first">
+<section class="section">
   <div class="layout layout--intro layout--image-overflow layout--trails-intro">
-    <div class="layout__text-top">
-      <h1 class="main__title">Take a walk through history on one of our heritage trails!</h1>
-    </div>
+    <h1 class="layout__title">Take a walk through history on one of our heritage trails!</h1>
     <div class="layout__image">
       <img class="trails-top" src="/images/home/MH_TrailsPosters_@2x.png" alt="An illustration of Mossley">
     </div>
-    <div class="layout__text-bottom">
+    <div class="layout__text-top">
       <p class="bigger--on-portrait">Our fabulous trail boards popped up all over Mossley in 2018 to celebrate and highlight the fantastic history right around us.</p>
       <p><a class="btn btn--1" href="#about-the-mossley-heritage-trails">Learn more about the trails</a></p>
     </div>
@@ -66,9 +64,9 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
 
 
 <section class="section">
-  <div class="layout layout--main layout--switch-left">
+  <div class="layout layout--main">
+    <h2 class="layout__title">About the Mossley Heritage Trails</h2>
     <div class="layout__text-top">
-      <h2 class="">About the Mossley Heritage Trails</h2>
       <p class="bigger">A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.</p>
     </div>
     <div class="layout__image">
@@ -76,7 +74,7 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
     </div>
     <div class="layout__text-bottom">
       <p>Volunteers worked alongside Green Monster Arts and pupils from all five Mossley primary schools to plot, walk, research stories, create characters and provide a narrative for five Mossley heritage trails.</p>
-      <p>The project was grant funded by the National Lottery Heritage Fund.</p>
+      <p><strong>The project was grant funded by the National Lottery Heritage Fund.</strong></p>
       <ul class="reset supporters">
         <li><img src="/images/trails/HeritageFund.svg" alt="Heritage Lottery Fund logo"></li>
         <li><img src="/images/trails/MH_GreenMonsterArts@2x.png" alt="Green Monster Arts logo"></li>
@@ -86,11 +84,13 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
   </div>
 </section>
 
-<div class="filled">
+<div class="filled filled--additional-trails">
 <section class="section section--centred" markdown="1">
 ## Additional trails
+{:.narrow .narrow--centered}
 
 We have a few older trails which can be downloaded below as printable PDF files.
+{:.narrow .narrow--centered}
 
 - [Upper Mossley Trail](/downloads/local-interest-trail-upper-mossley.pdf)
 - [Brookbottom & Roughtown Trail](/downloads/local-interest-trail-brookbottom-roughtown.pdf)

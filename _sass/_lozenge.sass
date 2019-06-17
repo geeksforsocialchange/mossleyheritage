@@ -35,22 +35,22 @@
     width: 83.33333%
     margin: 0 auto
 
-  +for-tablet-portrait-up
-    .lozenge--grid
-      &__section
-        width: 45%
-        display: inline-block
-        vertical-align: top
-        text-align: left
-        &:first-child
-          margin-right: 2%
-        &:last-child
-          margin-left: 2%
-        .spacer
-          padding-top: 0
-      @supports (display: grid)
-        display: grid
-        grid-template-columns: 1fr 1fr
-        grid-gap: $page-gutter
-        &__section
-          width: 100%
++for-tablet-portrait-up
+  .lozenge--grid
+    .lozenge__section
+      width: 45%
+      display: inline-block
+      vertical-align: top
+      text-align: left
+      &:first-child
+        margin-right: 2%
+      &:last-child
+        margin-left: 2%
+      .spacer
+        padding-top: 0
+    @supports (display: grid)
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-gap: $page-gutter
+      .lozenge__section
+        width: 100%
