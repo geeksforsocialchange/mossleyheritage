@@ -2,15 +2,11 @@
 title: Contact us
 ---
 
-<section class="section section--first">
+<section class="section">
   <div class="layout layout--intro layout--image-overflow">
-    <div class="layout__text-top">
-      <h1 class="main__title">If you’d like to contact us about any aspect of Mossley Heritage, we would love to hear from you.</h1>
-    </div>
+    <h1 class="layout__title">If you’d like to contact us about any aspect of Mossley Heritage, we would love to hear from you.</h1>
     <div class="layout__image">
       <img src="/images/contact/MH_Getintouch@2x.jpg" alt="A illustration of Longlands Mill">
-    </div>
-    <div class="layout__text-bottom">
     </div>
   </div>
 </section>

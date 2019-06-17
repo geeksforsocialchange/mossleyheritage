@@ -1,0 +1,29 @@
+.visit--visiting-the-centre
+  .narrow
+    +for-desktop-up
+      width: 40%
+  h2
+    font-size: 2.1875rem
+
+.visit--map
+  +for-tablet-portrait-up
+    width: 90%
+  +for-tablet-landscape-up
+    position: absolute
+    right: 0
+    top: 1rem
+    width: 45%
+  +for-desktop-up
+    width: 55%
+
+.visit--uncover-2
+  +for-tablet-portrait-up
+    img
+      display: inline-block
+      width: 40%
+      margin-right: $page-gutter
+    div
+      display: inline-block
+      width: 53%
+      width: calc(59% - #{$page-gutter})
+      vertical-align: top

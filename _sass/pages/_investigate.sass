@@ -1,0 +1,56 @@
+.investigate
+  display: grid
+  margin: 1rem 0
+  justify-items: center
+  +for-phone-only
+    grid-template-columns: 1fr
+    grid-gap: 2rem
+    grid-template-areas: "railway" "bobbins" "mills" "lamp" "tram" "irons" "wembley" "wheels" "local" "chalk" "wars" "train"
+    &__image
+      &--2 img
+        width: 50%
+      &--3 img
+        width: 80%
+      &--railway
+        grid-area: railway
+      &--mills
+        grid-area: mills
+      &--tram
+        grid-area: tram
+      &--bobbins
+        grid-area: bobbins
+      &--lamp
+        grid-area: lamp
+      &--irons
+        grid-area: irons
+      &--wheels
+        grid-area: wheels
+      &--chalk
+        grid-area: chalk
+      &--wembley
+        grid-area: wembley
+      &--local
+        grid-area: local
+      &--wars
+        grid-area: wars
+  +for-tablet-portrait-up
+    grid-template-columns: repeat(12, 1fr)
+    grid-template-rows: 5rem auto 5rem
+    grid-gap: 2rem $page-gutter
+    align-items: center
+    margin: 3rem 0 2rem
+    &__image
+      grid-column: span 3
+    &__image--2
+      grid-column: span 2
+    &__image--4
+      grid-column: span 4
+      img
+        max-height: 100%
+    &__image--mills img, &__image--wembley img, &__image--wars img
+      width: 70%
+  +for-desktop-up
+    &__image--railway, &__image--wembley
+      margin-left: 3rem
+    &__image--tram, &__image--wars
+      margin-right: 3rem
