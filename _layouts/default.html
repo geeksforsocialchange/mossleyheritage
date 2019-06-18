@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:500|Work+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
     <link href="/css/styles.css" rel="stylesheet">
     {% if page.title %}
       <title>{{ page.title }} | Mossley Heritage</title>
@@ -41,7 +42,7 @@
     <main class="main">
       {% if page.layout == 'trail' or page.layout == 'stop' %}
         <div class="filled">
-          <section class="section">
+          <section class="section section--trail-header">
             <img src="/images/trails/MH_Trail_Banner_Transp@2x.png" alt="Mossley Heritage Trails">
           </div>
         </div>

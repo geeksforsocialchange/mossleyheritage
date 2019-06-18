@@ -1,7 +1,0 @@
-{% assign stops = include.stops %}
-{% for stop in site.goose %}
-  <h2>{{ forloop.index }}. {{ stop.title }}</h2>
-  <p>{{ stop.year }}</p>
-  <p>{{ stop.teaser }}</p>
-  <a href="./stops/{{ forloop.index }}">Read the rest</a>
-{% endfor %}

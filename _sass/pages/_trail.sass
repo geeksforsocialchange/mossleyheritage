@@ -1,12 +1,84 @@
-.stop
-  display: grid
-  grid-template-columns: auto 1fr 250px
-  grid-gap: 2rem
-  margin-bottom: 2rem
-  h2
-    margin-top: 0
-
 .trail-logos
   img
     display: inline-block
     width: 45%
+
+.section--trail-header
+  padding-top: 1.5rem
+  padding-bottom: 1.5rem
+
+
+.stops
+  // display: grid
+  // grid-template-columns: auto 1fr 250px
+  // grid-gap: 2rem
+  // margin-bottom: 2rem
+  // h2
+  //   margin-top: 0
+  position: relative
+  &:before
+    content: ''
+    border-width: 0 5px
+    border-style: solid
+    border-color: inherit
+    height: 100%
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    width: 0
+    margin-left: auto
+    margin-right: auto
+
+.stop
+  padding: 2rem $page-gutter
+  margin-top: 4rem
+  margin-bottom: 2rem
+  position: relative
+  +bevel2
+  &__id
+    font-family: $serif
+    font-size: 1.375rem
+    line-height: 2
+    border: 3px solid $white
+    display: inline-block
+    border-radius: 50%
+    width: 3.5rem
+    height: 3.5rem
+    position: absolute
+    top: -1.5rem
+    left: 0
+    right: 0
+    margin-left: auto
+    margin-right: auto
+  &__directions
+    +size_14
+    margin-top: 0.75rem
+  &__title
+    +size_18
+    margin-bottom: 0
+    &:after
+      display: none
+  &__year
+    +size_18
+    color: $white
+    font-family: $serif
+  &__map
+    margin: 1.5rem 0
+    height: 200px
+    width: 100%
+    +bevel(1rem)
+    .mapboxgl-canvas
+      left: 0
+    .mapboxgl-ctrl
+      padding-left: 0.25rem
+    // .mapboxgl-ctrl-logo
+    //   display: none !important
+    &--final
+      height: 300px
+      margin-bottom: 0
+  &__teaser
+    padding-bottom: 2rem
+  &__link
+    background: $white

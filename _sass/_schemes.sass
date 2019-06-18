@@ -23,6 +23,11 @@
         color: $white
         background: $trails-dark
         border-color: $trails-dark
+    .filled
+      background-color: $trails-light
+    .textured
+      background-color: $trails-light
+      background-image: url('/images/trails/MH_Trails_Texture_RGB_2500_orange.jpg')
   &--history
     a:hover
       color: $history-dark
@@ -38,6 +43,8 @@
         color: $white
         background: $history-dark
         border-color: $history-dark
+    .filled
+      background-color: $history-light
   &--visit
     a:hover
       color: $centre-dark
@@ -48,14 +55,24 @@
       border-color: $centre-light
     .btn--1 a, a.btn--1
       background: $centre-light
+    .filled
+      background-color: $centre-light
 
-  &--goose
+=scheme($animal, $colour)
+  .scheme--#{$animal}
     a:hover
-      color: $trail-goose
+      color: $colour
     .dark-colour
-      color: $trail-goose
-      fill: $trail-goose
+      color: $colour
+    .dark-colour-fill
+      fill: $colour
     *
-      border-color: $trail-goose
-    .btn--1 a, a.btn--1
-      background: $trail-goose
+      border-color: $colour
+    .btn--1 a, a.btn--1, .filled, .stop, .stop__id
+      background-color: $colour
+
++scheme(bat, $trail-bat)
++scheme(crow, $trail-crow)
++scheme(dog, $trail-dog)
++scheme(goose, $trail-goose)
++scheme(horse, $trail-horse)

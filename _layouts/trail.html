@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign trail = site.data.trails[page.trail] %}
+{% assign stops = site[trail.stops] %}
 
 <section class="section section--centred">
 <h1 class="underline">{{ trail.title }}</h1>
@@ -13,7 +14,44 @@ layout: default
 
 {{ content }}
 
-{% include stops.html stops=trail.stops %}
+<ol class="reset stops">
+  {% for stop in stops %}
+    <li class="stop">
+      <div class="stop__id">{{ forloop.index }}</div>
+      <div class="stop__directions">{{ stop.directions }}</div>
+      <h2 class="stop__title">{{ stop.title }}</h2>
+      <div class="stop__year">{{ stop.year }}</div>
+      <div class="stop__map" id="map__{{ forloop.index }}"></div>
+      <div class="stop__teaser">{{ stop.teaser }}</div>
+      <a class="stop__link btn" href="./stops/{{ forloop.index }}">Read the rest</a>
+    </li>
+    {% assign total_stops = forloop.length %}
+  {% endfor %}
+  <li class="stop stop--final">
+    <h2 class="stop__title">Now head to Mossley Heritage Centre & Emmaus!</h2>
+    <div class="stop__map stop__map--final" id="map__{{ total_stops | plus: 1 }}"></div>
+  </li>
+</ol>
 
 {% include trails.html exclude=trail.id %}
 </section>
+
+<script>
+  mapboxgl.accessToken = "{{ site.mapbox_token }}";
+  total_stops = {{ total_stops }}
+
+  /* Map: This represents the map on the page. */
+  for(var m = 1; m < total_stops + 2; m++) {
+    var map = new mapboxgl.Map({
+      container: "map__" + m,
+      style: "mapbox://styles/mapbox/light-v9",
+      zoom: 14.5,
+      center: [-2.04225, 53.51517],
+      attributionControl: false
+    });
+    map.scrollZoom.disable();
+    map.on("load", function() {
+
+    })
+  }
+</script>
