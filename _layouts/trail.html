@@ -21,7 +21,7 @@ layout: default
       <div class="stop__directions">{{ stop.directions }}</div>
       <h2 class="stop__title">{{ stop.title }}</h2>
       <div class="stop__year">{{ stop.year }}</div>
-      <div class="stop__map" id="map__{{ forloop.index }}"></div>
+      <div class="stop__map" id="map__{{ forloop.index }}" data-lnglat="{{ stop.lnglat }}" data-lon="{{ stop.lon }}"></div>
       <div class="stop__teaser">{{ stop.teaser }}</div>
       <a class="stop__link btn" href="./stops/{{ forloop.index }}">Read the rest</a>
     </li>
@@ -32,16 +32,18 @@ layout: default
     <div class="stop__map stop__map--final" id="map__{{ total_stops | plus: 1 }}"></div>
   </li>
 </ol>
-
-{% include trails.html exclude=trail.id %}
 </section>
+
+<div class="scheme--trail">
+  {% include trails.html exclude=trail.id %}
+</div>
 
 <script>
   mapboxgl.accessToken = "{{ site.mapbox_token }}";
   total_stops = {{ total_stops }}
 
-  /* Map: This represents the map on the page. */
   for(var m = 1; m < total_stops + 2; m++) {
+    // Create the map
     var map = new mapboxgl.Map({
       container: "map__" + m,
       style: "mapbox://styles/mapbox/light-v9",
@@ -49,9 +51,17 @@ layout: default
       center: [-2.04225, 53.51517],
       attributionControl: false
     });
-    map.scrollZoom.disable();
-    map.on("load", function() {
+    map.scrollZoom.disable()
 
-    })
+    // Create the marker
+    var el = document.createElement('div')
+    el.className = 'stop__marker'
+    new mapboxgl.Marker(el)
+                .setLngLat([-2.04225, 53.51517])
+                .addTo(map)
+
+    // map.on("load", function() {
+    //
+    // })
   }
 </script>

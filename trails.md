@@ -16,11 +16,7 @@ scheme: trail
   </div>
 </section>
 
-<div class="textured">
-<section class="section section--centred">
 {% include trails.html %}
-</section>
-</div>
 
 {% include map.html %}
 
