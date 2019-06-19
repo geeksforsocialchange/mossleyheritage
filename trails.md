@@ -57,8 +57,6 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
 </section>
 </div>
 
-
-
 <section class="section">
   <div class="layout layout--main">
     <h2 class="layout__title">About the Mossley Heritage Trails</h2>

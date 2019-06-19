@@ -103,27 +103,44 @@
   +for-tablet-portrait-up
     display: grid
     grid-template-columns: 4fr 6fr
-    grid-gap: 0 $page-gutter
-    grid-template-areas: "id title" "directions year" "map teaser"
     text-align: left
     position: relative
-    &:before
-      content: ''
-      position: absolute
-      left: 0
-      right: 0
-      top: 0
-      bottom: 0
-      background: linear-gradient(to right, $grey 40%, transparent 40%)
+    padding: 0
+    background-color: $grey !important
+    &__location
+      background-color: $grey
+    &__location, &__content
+      +bevel(1rem)
+      padding: 2rem 2rem
     &__id
-      grid-area: id
-    &__title
-      grid-area: title
+      margin-top: 0
     &__directions
-      grid-area: directions
+      margin-top: 0.1rem
+    &__title
+      margin-top: 0.25rem
     &__year
-      grid-area: year
+      margin-top: 0.1rem
+      margin-bottom: 1rem
     &__map
-      grid-area: map
-    &__teaser
-      grid-area: teaser
+      margin-bottom: 0
+    a.stop__link
+      margin-top: 2rem
+      display: inline-block
+  +for-tablet-landscape-up
+    grid-template-columns: 4fr 8fr
+    &__title, &__year
+      +size_20
+    &__directions
+      +size_16
+    &__id
+      margin-bottom: 0.5rem
+
+  +for-desktop-up
+    &__title, &__year, &__id
+      +size_35
+    &__directions
+      +size_20
+    &__location
+      padding: 2rem 3rem
+    &__content
+      padding: 2rem 5rem

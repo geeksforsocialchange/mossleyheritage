@@ -68,8 +68,11 @@
       fill: $colour
     *
       border-color: $colour
-    .btn--1 a, a.btn--1, .filled, .stop, .stop__id
+    .btn--1 a, a.btn--1, .filled, .stop, .stop__content
       background-color: $colour
+    +for-phone-only
+      .stop__id
+        background-color: $colour
 
 +scheme(bat, $trail-bat)
 +scheme(crow, $trail-crow)
