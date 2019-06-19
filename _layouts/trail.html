@@ -22,8 +22,11 @@ layout: default
       <h2 class="stop__title">{{ stop.title }}</h2>
       <div class="stop__year">{{ stop.year }}</div>
       <div class="stop__map" id="map__{{ forloop.index }}" data-lnglat="{{ stop.lnglat }}" data-lon="{{ stop.lon }}"></div>
-      <div class="stop__teaser">{{ stop.teaser }}</div>
-      <a class="stop__link btn" href="./stops/{{ forloop.index }}">Read the rest</a>
+      <div class="stop__teaser">
+        {{ stop.teaser }}
+        <p><a class="stop__link btn" href="./stops/{{ forloop.index }}">Read the rest</a></p>
+      </div>
+
     </li>
     {% assign total_stops = forloop.length %}
   {% endfor %}
@@ -40,11 +43,11 @@ layout: default
 
 <script>
   mapboxgl.accessToken = "{{ site.mapbox_token }}";
-  total_stops = {{ total_stops }}
+  var total_stops = {{ total_stops }}
 
   for(var m = 1; m < total_stops + 2; m++) {
     // Create the map
-    var map = new mapboxgl.Map({
+    let map = new mapboxgl.Map({
       container: "map__" + m,
       style: "mapbox://styles/mapbox/light-v9",
       zoom: 14.5,
@@ -53,15 +56,13 @@ layout: default
     });
     map.scrollZoom.disable()
 
-    // Create the marker
-    var el = document.createElement('div')
-    el.className = 'stop__marker'
-    new mapboxgl.Marker(el)
-                .setLngLat([-2.04225, 53.51517])
-                .addTo(map)
-
-    // map.on("load", function() {
-    //
-    // })
+    // Create the marker after it's loaded
+    map.on("load", function() {
+      let el = document.createElement('div')
+      el.className = 'stop__marker'
+      new mapboxgl.Marker(el)
+                  .setLngLat([-2.04225, 53.51517])
+                  .addTo(map)
+    })
   }
 </script>
