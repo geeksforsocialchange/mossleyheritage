@@ -73,6 +73,10 @@
     margin-bottom: 0
     &:after
       display: none
+  &--final .stop__title
+    +size_22
+    +for-tablet-portrait-up
+      +size_20
   &__year
     +size_18
     color: $white
@@ -91,14 +95,14 @@
     &--final
       height: 300px
       margin-bottom: 0
-  &__marker
-    background-color: red
-    height: 1rem
-    width: 1rem
   &__teaser
     padding-bottom: 2rem
   &__link
     background: $white
+
+  // +for-phone-only
+  //   display: flex
+  //   flex-direction: column
 
   +for-tablet-portrait-up
     display: grid
@@ -126,6 +130,17 @@
     a.stop__link
       margin-top: 2rem
       display: inline-block
+    &--final
+      display: block
+      text-align: center
+      padding: $page-gutter
+      .stop__title
+        margin-bottom: $page-gutter
+      .stop__map
+        width: 50%
+        height: 200px
+        margin: 0 auto
+
   +for-tablet-landscape-up
     grid-template-columns: 4fr 8fr
     &__title, &__year
@@ -144,3 +159,31 @@
       padding: 2rem 3rem
     &__content
       padding: 2rem 5rem
+
+.stop__map
+  .map__marker
+    background-image: url('/images/markers/blank.svg')
+    width: (150px / 6)
+    height: (225px / 6)
+    margin-top: -(225px / 12)
+
+  &--1 .map__marker
+    background-image: url('/images/markers/01.svg')
+  &--2 .map__marker
+    background-image: url('/images/markers/02.svg')
+  &--3 .map__marker
+    background-image: url('/images/markers/03.svg')
+  &--4 .map__marker
+    background-image: url('/images/markers/04.svg')
+  &--5 .map__marker
+    background-image: url('/images/markers/05.svg')
+  &--6 .map__marker
+    background-image: url('/images/markers/06.svg')
+  &--7 .map__marker
+    background-image: url('/images/markers/07.svg')
+  &--8 .map__marker
+    background-image: url('/images/markers/08.svg')
+  &--9 .map__marker
+    background-image: url('/images/markers/09.svg')
+  &--final .map__marker
+    background-image: url('/images/markers/centre.svg')

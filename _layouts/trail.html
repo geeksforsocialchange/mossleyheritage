@@ -20,7 +20,7 @@ layout: default
       <div class="stop__location">
         <div class="stop__id">{{ forloop.index }}</div>
         <div class="stop__directions">{{ stop.directions }}</div>
-        <div class="stop__map" id="map__{{ forloop.index }}" data-lnglat="{{ stop.lnglat }}" data-lon="{{ stop.lon }}"></div>
+        <div class="stop__map stop__map--{{ forloop.index }}" id="map__{{ forloop.index }}" data-lat="{{ stop.lat }}" data-lon="{{ stop.lon }}"></div>
       </div>
       <div class="stop__content">
         <h2 class="stop__title">{{ stop.title }}</h2>
@@ -36,7 +36,7 @@ layout: default
   {% endfor %}
   <li class="stop stop--final">
     <h2 class="stop__title">Now head to Mossley Heritage Centre & Emmaus!</h2>
-    <div class="stop__map stop__map--final" id="map__{{ total_stops | plus: 1 }}"></div>
+    <div class="stop__map stop__map--final" id="map__{{ total_stops | plus: 1 }}" data-lat="53.51519" data-lon="-2.03996"></div>
   </li>
 </ol>
 </section>
@@ -50,22 +50,28 @@ layout: default
   var total_stops = {{ total_stops }}
 
   for(var m = 1; m < total_stops + 2; m++) {
+    // Get the lat and lon from data attributes
+    let ele = document.querySelector('#map__' + m)
+    let lonLat = [ele.dataset.lon, ele.dataset.lat]
+
     // Create the map
     let map = new mapboxgl.Map({
       container: "map__" + m,
-      style: "mapbox://styles/mapbox/light-v9",
-      zoom: 14.5,
-      center: [-2.04225, 53.51517],
+      style: "mapbox://styles/mossleyheritage/cjx1t82kj053c1cpaoaupfxfh",
+      zoom: 16,
+      center: lonLat,
       attributionControl: false
     });
+
+    // Don't let it zoom or it gets really annoying
     map.scrollZoom.disable()
 
     // Create the marker after it's loaded
     map.on("load", function() {
       let el = document.createElement('div')
-      el.className = 'stop__marker'
+      el.className = 'map__marker'
       new mapboxgl.Marker(el)
-                  .setLngLat([-2.04225, 53.51517])
+                  .setLngLat(lonLat)
                   .addTo(map)
     })
   }

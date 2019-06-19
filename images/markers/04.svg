@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 225">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #222;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>MH_Map</title>
+  <g>
+    <polygon class="cls-1" points="0 0 0 150 75 225 150 150 150 0 0 0"/>
+    <rect class="cls-2" x="15" y="15" width="120" height="120"/>
+    <path class="cls-1" d="M92.49,88.23v21L79.75,115V88.23H43.49V84.7L79.75,40.8,92.49,35V80.78h15l-3.43,7.45ZM79.75,51.09l-24,29.69h24Z"/>
+  </g>
+</svg>

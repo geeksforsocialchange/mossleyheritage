@@ -38,6 +38,17 @@
       <div class="header__menu">
         {% include navigation.html %}
       </div>
+      <script>
+        var toggle = document.getElementById('js--navigation__toggle')
+        var menu = document.getElementById('js--navigation__menu')
+
+        function classToggle() {
+          menu.classList.toggle('navigation--hide')
+        }
+
+        toggle.addEventListener('click', classToggle)
+        classToggle()
+      </script>
     </header>
     <main class="main">
       {% if page.layout == 'trail' or page.layout == 'stop' %}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "trails",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "07eb552413462cd87b9cf85bbea95ff9", "description": "goose" }, "geometry": { "type": "LineString", "coordinates": [ [ -2.02549, 53.51546 ], [ -2.027134, 53.515347 ], [ -2.02976, 53.516997 ], [ -2.033711, 53.515562 ], [ -2.035952, 53.515263 ], [ -2.036463, 53.514069 ], [ -2.040961, 53.513129 ] ] } },
+{ "type": "Feature", "properties": { "Name": "37e528091f3a9957f15283dfec621a41", "description": "dog" }, "geometry": { "type": "LineString", "coordinates": [ [ -2.046586, 53.517636 ], [ -2.045881, 53.518735 ], [ -2.04527, 53.517791 ], [ -2.04434, 53.517851 ], [ -2.043682, 53.518434 ], [ -2.042627, 53.51752 ], [ -2.041703, 53.515135 ] ] } },
+{ "type": "Feature", "properties": { "Name": "b4312dccef23cd0bc08365eace15ea6e", "description": "bat" }, "geometry": { "type": "LineString", "coordinates": [ [ -2.048627, 53.517141 ], [ -2.047596, 53.51842 ], [ -2.046141, 53.519174 ], [ -2.043108, 53.518914 ], [ -2.042419, 53.519493 ], [ -2.04306, 53.519905 ], [ -2.041937, 53.514652 ] ] } },
+{ "type": "Feature", "properties": { "Name": "bd41b99272a7e191084bef6821a70460", "description": "horse" }, "geometry": { "type": "LineString", "coordinates": [ [ -2.045175, 53.514233 ], [ -2.044525, 53.514472 ], [ -2.044903, 53.515057 ], [ -2.044006, 53.515032 ], [ -2.041514, 53.514497 ], [ -2.041652, 53.515288 ], [ -2.040881, 53.515396 ] ] } },
+{ "type": "Feature", "properties": { "Name": "ceb16012217621e9276320bdb0da8b4b", "description": "goose" }, "geometry": { "type": "LineString", "coordinates": [ [ -2.039627, 53.520924 ], [ -2.038278, 53.522534 ], [ -2.037801, 53.522926 ], [ -2.038542, 53.52356 ], [ -2.037061, 53.521051 ], [ -2.036533, 53.520104 ], [ -2.036066, 53.519621 ] ] } }
+]
+}
