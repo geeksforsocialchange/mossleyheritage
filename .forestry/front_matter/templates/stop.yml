@@ -1,0 +1,22 @@
+---
+label: Stop
+hide_body: true
+fields:
+- type: text
+  name: directions
+  label: directions
+- type: text
+  name: title
+  label: title
+- type: text
+  name: year
+  label: year
+- type: text
+  name: teaser
+  label: teaser
+- type: number
+  name: lat
+  label: lat
+- type: number
+  name: lon
+  label: lon
