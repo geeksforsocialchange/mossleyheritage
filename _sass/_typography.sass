@@ -36,27 +36,27 @@ h1, .h1
     font-size: 2.8125rem
     line-height: 1.28888
     padding-right: 10%
+    +underline
+    &:after
+      width: 50%
   +for-tablet-landscape-up
     font-size: 1.875rem
     line-height: 1.333333
     padding-right: 0
+    &:after
+      width: 83%
   +for-desktop-up
     font-size: 2.8125rem
     line-height: 1.288889
+    &:after
+      width: 80%
 
 // Page subtitles
 h2, .h2
   font-size: 1.875rem
   line-height: 1.166667em
   letter-spacing: -0.04rem
-  &:after
-    display: block
-    content: ''
-    height: 3px
-    border-width: 3px 0 0 0
-    margin-top: 2rem
-    border-style: solid
-    border-color: inherit
+  +underline
   +for-tablet-portrait-up
     font-size: 2.1875rem
     line-height: 1.14286
@@ -66,8 +66,7 @@ h2, .h2
     line-height: 1.333333
     letter-spacing: -0.04rem
   +for-desktop-up
-    font-size: 2.8125rem
-    line-height: 1.288889
+    +size_45
 
 h3, .h3
   font-size: 1.125rem
@@ -136,6 +135,12 @@ h3.spacer
 p.spacer
   margin-bottom: 5rem !important
 
-.no-underline
-  border-bottom: 0
-  padding-bottom: 0
+.no-underline-phone
+  +for-phone-only
+    padding: 0
+    margin-bottom: 2rem
+    margin-top: 1rem
+    &:after
+      border-width: 0
+      margin: 0
+      padding: 0
