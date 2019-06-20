@@ -7,12 +7,9 @@ sections:
 - type: document
   path: _data/trails.yml
   label: Trail info
-  match: "**/*"
 - type: document
   path: _data/timelime.yml
   label: Timeline
-  match: "**/*"
-  read_only: false
 - type: directory
   path: collections
   label: Stops
@@ -26,8 +23,8 @@ sections:
   label: Trails
   create: all
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
