@@ -5,8 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: collections/_bat
-  label: bat
+  path: collections
+  label: Stops
   create: all
   match: "**/*"
 - type: jekyll-pages
