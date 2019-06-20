@@ -8,7 +8,7 @@ sections:
   path: _data/trails.yml
   label: Trail info
 - type: document
-  path: _data/timelime.yml
+  path: _data/timeline.yml
   label: Timeline
 - type: directory
   path: collections
