@@ -4,6 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/trails.yml
+  label: Trail info
+  match: "**/*"
+- type: document
+  path: _data/timelime.yml
+  label: Timeline
+  match: "**/*"
+  read_only: false
 - type: directory
   path: collections
   label: Stops
