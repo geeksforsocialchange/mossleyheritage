@@ -16,6 +16,7 @@ In May 2018 the General Data Protection Regulation (GDPR) comes into effect. It 
 ## 3. Data
 
 The data Mossley Civic Society holds on its members is the information that members provided when they joined the Society or through subsequent updates.  This consists of name, address and, in some cases, telephone number and email address. We do not hold any kind of sensitive personal information, such as medical details.
+
 We also hold contact details for a number of Heritage Centre volunteers who are not members of Mossley Civic Society.
 
 ## 4. What the data is used for
@@ -52,6 +53,6 @@ Individuals have a right to ask us to remove the data we have for them. If they 
 - If someone sends the Society an email their email address will be used for sending a reply but will not be used for any other purpose. We do not pass on email addresses to anyone else.
 - When sending a group email within the Society (e.g. to committee members or to other groups of members) the email should be addressed to one recipient (possibly the sender's own email address). All other recipients should then be added via the BCC option ('blind carbon copy'). Individuals' email addresses should not be made publicly known without the agreement of those individuals.
 
-_Last updated 01/05/18._
+_Last updated 01/05/18_
 
 </article>
