@@ -16,7 +16,6 @@
       margin-left: calc(-100% -  #{$page-gutter / 2})
       padding-right: $page-gutter / 2
 
-
 .layout--image-right
   +for-tablet-portrait-up
     margin-right: 50%
@@ -25,3 +24,32 @@
     img
       margin-left: 107%
       margin-left: calc(100% + #{$page-gutter})
+
+@supports (display: grid)
+  .layout--image-left, .layout--image-right
+    +simple_grid
+    grid-auto-flow: dense
+    margin: 0
+    padding: 0
+    .layout__image
+      // TODO: Figure out why "grid-row: 1 / -1" isn't working
+      // Arbritrarily large number provided instead
+      grid-row: span 5
+    img
+      width: 100%
+      margin: 2rem 0 0 0
+      padding: 0
+      display: block
+      position: static
+
+  .layout--image-left
+    *
+      grid-column: 2
+    .layout__image
+      grid-column: 1
+
+  .layout--image-right
+    *
+      grid-column: 1
+    .layout__image
+      grid-column: 2
