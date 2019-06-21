@@ -1,0 +1,12 @@
+=simple_grid
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: 0 $page-gutter
+  +for-tablet-portrait-up
+    grid-gap: 0 $page-margin-portrait
+  +for-tablet-landscape-up
+    grid-gap: 0 $page-margin-landscape
+  +for-desktop-up
+    grid-gap: 0 $page-margin-desktop
+  p
+    margin-top: 0

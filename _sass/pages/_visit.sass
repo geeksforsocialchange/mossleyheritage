@@ -27,3 +27,19 @@
       width: 53%
       width: calc(59% - #{$page-gutter})
       vertical-align: top
+
+@supports (display: grid)
+  .visit--visiting-the-centre
+    +for-tablet-landscape-up
+      +simple_grid
+      > *
+        grid-column: 1
+      .visit--map
+        margin-top: 3rem
+        grid-column: 2
+        grid-row: 1 / -1
+        width: 100%
+      .narrow
+        width: 100%
+    +for-desktop-up
+      grid-template-columns: 4fr 7fr

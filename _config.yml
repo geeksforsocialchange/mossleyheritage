@@ -25,23 +25,30 @@ defaults:
       type: "bat"
     values:
       layout: "stop"
+      scheme: "bat"
+      trail_name: site.data.trails[0].name
   - scope:
       path: ""
       type: "crow"
     values:
       layout: "stop"
+      scheme: "crow"
   - scope:
       path: ""
       type: "dog"
     values:
       layout: "stop"
+      scheme: "dog"
   - scope:
       path: ""
       type: "goose"
     values:
       layout: "stop"
+      scheme: "goose"
+      trail_name: "A Goose's Gander"
   - scope:
       path: ""
       type: "horse"
     values:
       layout: "stop"
+      scheme: "horse"

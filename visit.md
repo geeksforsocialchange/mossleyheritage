@@ -3,16 +3,17 @@ title: Visit us
 scheme: visit
 ---
 
-<section class="section section--thin">
-  <div class="layout layout--intro">
-    <h1 class="layout__title">Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.</h1>
-    <div class="layout__image">
-      <img src="/images/visit/MH_HeritageCentre_Exterior@2x.jpg" alt="A photo of the centre">
-    </div>
-    <div class="layout__text-top">
-      <p class="bigger--on-portrait">The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.</p>
-    </div>
-  </div>
+<section class="section">
+<div class="layout--image-right" markdown="1">
+# Mossley Heritage Centre takes up a corner of Longlands Mill, and is dedicated to celebrating our incredible hilly milly history.
+{:.no-underline-phone}
+
+![A photo of the centre](/images/visit/MH_HeritageCentre_Exterior@2x.jpg)
+{:.layout__image}
+
+The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.
+{:.bigger-on-portrait}
+</div>
 </section>
 
 <div class="filled">
@@ -51,29 +52,31 @@ Admittance is free.
 </section>
 
 <div class="filled">
-  <section class="section">
-    <div class="layout layout--main">
-      <h2 class="layout__title">Uncover the hidden stories of Mossley</h2>
-      <div class="layout__image">
-        <img src="/images/visit/MH_HeritageCentre_Uncover1@2x.jpg" alt="A visitor browsing the centre">
-      </div>
-      <div class="layout__text-top">
-        <p>Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?</p>
-      </div>
-    </div>
-  </section>
+<section class="section">
+<div class="layout--image-right" markdown="1">
+## Uncover the hidden stories of Mossley
+{:.no-underline-phone}
+
+![A visitor browsing the centre](/images/visit/MH_HeritageCentre_Uncover1@2x.jpg)
+{:.layout__image}
+
+Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?
+</div>
+</section>
 </div>
 
 <section class="section">
-  <div class="visit--uncover-2">
-    <img src="/images/visit/MH_HeritageCentre_Uncover2@2x.jpg" alt="More visitors browsing the centre">
-    <div>
-      <p>Learn the weird and wonderful stories of people trading jars of wee for cloth and the men who were dressed as shepherds but didn’t own any sheep!</p>
-      <p><a href="#visiting-the-centre" class="btn btn--1">Arrange your visit</a></p>
-    </div>
-  </div>
-</section>
+<div class="layout--image-left" markdown="1">
+![More visitors browsing the centre](/images/visit/MH_HeritageCentre_Uncover2@2x.jpg)
+{:.layout__image}
+<br><br>
+Learn the weird and wonderful stories of people trading jars of wee for cloth and the men who were dressed as shepherds but didn’t own any sheep!
 
+[Arrange your visit](#visiting-the-centre)
+{:.btn .btn--1}
+
+</div>
+</section>
 
 <div class="filled">
 <section class="section">
