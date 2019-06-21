@@ -1,18 +1,17 @@
-<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js"></script>
-<script src="/js/trails.js"></script>
-
 <div id="map"></div>
 
 <script>
-  mapboxgl.accessToken = "pk.eyJ1Ijoia2ltYWRhY3R5bCIsImEiOiJCYzdNTTR3In0.hkjyGpEFYdSPrVp3e717eA";
+  mapboxgl.accessToken = "{{ site.mapbox_token }}"
 
   /* Map: This represents the map on the page. */
   var map = new mapboxgl.Map({
     container: "map",
-    style: "mapbox://styles/mapbox/light-v9",
-    zoom:14.5,
+    style: "{{ site.mapbox_style }}",
+    zoom: 14,
     center: [-2.04225,53.51517]
   });
+
+  map.scrollZoom.disable()
 
   map.on("load", function () {
     /* Style layer: A style layer ties together the source and image and specifies how they are displayed on the map. */
@@ -28,14 +27,14 @@
       });
     })
     // Make the map scale to fit everything in
-    var bounds = new mapboxgl.LngLatBounds();
-
-    traildata.features.forEach(function(feature) {
-      feature.geometry.coordinates.forEach(function(marker) {
-        bounds.extend(marker);
-      })
-    });
-
-    map.fitBounds(bounds, { padding: 50 });
+    // var bounds = new mapboxgl.LngLatBounds();
+    //
+    // traildata.features.forEach(function(feature) {
+    //   feature.geometry.coordinates.forEach(function(marker) {
+    //     bounds.extend(marker);
+    //   })
+    // });
+    //
+    // map.fitBounds(bounds, { padding: 50 });
   });
 </script>

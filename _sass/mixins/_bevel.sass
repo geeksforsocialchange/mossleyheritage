@@ -2,7 +2,12 @@
   -webkit-clip-path: polygon(0% #{$clip}, #{$clip} 0%, calc(100% - #{$clip}) 0%, 100% #{$clip}, 100% calc(100% - #{$clip}), calc(100% - #{$clip}) 100%, #{$clip} 100%, 0 calc(100% - #{$clip}))
   clip-path: polygon(0% #{$clip}, #{$clip} 0%, calc(100% - #{$clip}) 0%, 100% #{$clip}, 100% calc(100% - #{$clip}), calc(100% - #{$clip}) 100%, #{$clip} 100%, 0 calc(100% - #{$clip}))
 
-=bevel2($background: $white, $clip: 1em)
+=bevel2($clip: 1em, $background: $white)
   background: linear-gradient(45deg, $background #{$clip}, transparent #{$clip}, transparent calc(#{$clip} + 2px), transparent calc(#{$clip} + 2px)), linear-gradient(-45deg, $background #{$clip}, transparent #{$clip}, transparent calc(#{$clip} + 2px), transparent calc(#{$clip} + 2px)),linear-gradient(225deg, $background #{$clip}, transparent #{$clip}, transparent calc(#{$clip} + 2px), transparent calc(#{$clip} + 2px)),linear-gradient(-225deg, $background #{$clip}, transparent #{$clip}, transparent calc(#{$clip} + 2px), transparent calc(#{$clip} + 2px)), linear-gradient(to left, transparent, transparent) top no-repeat, linear-gradient(to left, transparent, transparent) bottom no-repeat, linear-gradient(to top, transparent, transparent) left no-repeat, linear-gradient(to top, transparent, transparent) right no-repeat
 
   background-size: auto auto, auto auto, auto auto, auto auto, calc(100% - #{$clip * 2} - 6px ) 2px, calc(100% - #{$clip * 2} - 6px) 2px, 2px  calc(100% - #{$clip * 2} - 6px ), 2px  calc(100% - #{$clip * 2} - 6px)
+
+=bevel3($clip: 1em, $background: $white)
+  background: linear-gradient(135deg, transparent #{$clip}, #{$background} 0) top left, linear-gradient(225deg, transparent #{$clip}, #{$background} 0) top right, linear-gradient(315deg, transparent #{$clip}, #{$background} 0) bottom right, linear-gradient(45deg,  transparent #{$clip}, #{$background} 0) bottom left
+  background-size: 50% 50%
+  background-repeat: no-repeat

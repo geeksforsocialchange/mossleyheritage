@@ -57,7 +57,7 @@ layout: default
     // Create the map
     let map = new mapboxgl.Map({
       container: "map__" + m,
-      style: "mapbox://styles/mossleyheritage/cjx1t82kj053c1cpaoaupfxfh",
+      style: "{{ site.mapbox_style }}",
       zoom: 16,
       center: lonLat,
       attributionControl: false

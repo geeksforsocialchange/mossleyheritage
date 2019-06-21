@@ -59,7 +59,7 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
 
 <section class="section">
   <div class="layout layout--main">
-    <h2 class="layout__title">About the Mossley Heritage Trails</h2>
+    <h2 class="layout__title" id="about-the-mossley-heritage-trails">About the Mossley Heritage Trails</h2>
     <div class="layout__text-top">
       <p class="bigger">A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.</p>
     </div>

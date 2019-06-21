@@ -1,4 +1,5 @@
 mapbox_token: "pk.eyJ1IjoibW9zc2xleWhlcml0YWdlIiwiYSI6ImNqeDFzOGk2MDBjMWgzeW1xYXZ3cjA5eTgifQ.wDNyjGwJn0ZEof6REf-xVQ"
+mapbox_style: "mapbox://styles/mossleyheritage/cjx1t82kj053c1cpaoaupfxfh"
 
 collections_dir: collections
 
@@ -26,19 +27,21 @@ defaults:
     values:
       layout: "stop"
       scheme: "bat"
-      trail_name: site.data.trails[0].name
+      trail_name: "A Bat's Eye View"
   - scope:
       path: ""
       type: "crow"
     values:
       layout: "stop"
       scheme: "crow"
+      trail_name: "As the Crow Flies"
   - scope:
       path: ""
       type: "dog"
     values:
       layout: "stop"
       scheme: "dog"
+      trail_name: "A Dog's Life"
   - scope:
       path: ""
       type: "goose"
@@ -52,3 +55,4 @@ defaults:
     values:
       layout: "stop"
       scheme: "horse"
+      trail_name: "A Horse's Tale"
