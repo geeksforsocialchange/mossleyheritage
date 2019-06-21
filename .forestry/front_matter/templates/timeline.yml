@@ -1,0 +1,20 @@
+---
+label: Timeline
+hide_body: true
+fields:
+- type: field_group_list
+  name: Timeline
+  label: Timeline
+  fields:
+  - type: number
+    name: year
+    label: year
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: description
+    label: description
