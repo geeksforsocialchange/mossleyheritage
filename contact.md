@@ -23,7 +23,6 @@ title: Contact us
 ## Visit Mossley <br>Heritage Centre
 {:.h3}
 
-Mossley Heritage Centre,
 Longlands Mill,
 Queen Street,
 Mossley,

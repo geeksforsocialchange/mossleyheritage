@@ -1,6 +1,5 @@
 .btn a, a.btn
   +size_20
-  +bevel
   letter-spacing: 0
   display: inline-block
   text-decoration: none
@@ -16,6 +15,7 @@
 
 .btn--1 a, a.btn--1
   color: $black
+  +bevel
   &:hover
     background: $black !important
 
@@ -24,8 +24,10 @@
   border-width: 2px
   border-style: solid
   border-color: inherit
+  border-radius: -7px
 
 .btn--3 a, a.btn--3
+  +bevel
   background: $white
   &:hover
     background: $black !important
