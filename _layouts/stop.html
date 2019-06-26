@@ -6,21 +6,17 @@ layout: default
 
 <h1 class="stop-page__title">{{ page.trail_name }} &mdash; Stop {{ page.slug }}</h1>
 
-<div class="filled">
-  <section class="section">
-    <div class="lozenge">
-      <div class="stop-page">
-        <h2>{{ page.title }}</h2>
-        <div class="stop-page__year">{{ page.year }}</div>
-        {{ content }}
-        <hr>
-        <nav aria-label="Blog navigation">
-          <a href="../" class="btn btn--3">Go back</a></li>&nbsp;&nbsp;&nbsp;
-          {% if page.next %}
-            <a href="{{ page.next.url }}" class="btn btn--3">Next stop</a>
-          {% endif %}
-        </nav>
-      </div>
-    </div>
-  </section>
-</div>
+<section class="section">
+  <div class="stop-page">
+    <h2>{{ page.title }}</h2>
+    <div class="stop-page__year">{{ page.year }}</div>
+      {{ content }}
+      <hr>
+    <nav aria-label="Blog navigation">
+      <a href="../" class="btn btn--3">Go back</a></li>&nbsp;&nbsp;&nbsp;
+      {% if page.next %}
+        <a href="{{ page.next.url }}" class="btn btn--3">Next stop</a>
+      {% endif %}
+    </nav>
+  </div>
+</section>
