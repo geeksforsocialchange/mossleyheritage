@@ -5,6 +5,7 @@
 
 body
   margin: 0
+  letter-spacing: -0.01rem
   scroll-behavior: smooth
 
 // For establishing absolute contexts
@@ -135,8 +136,7 @@ body
         width: 100%
     +for-desktop-up
       p.bigger--on-portrait
-        font-size: 1.25rem
-        line-height: 1.4
+        +size_20
         margin-top: 0
 
   .layout--get-involved

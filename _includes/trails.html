@@ -6,7 +6,7 @@
     {% for trail in site.data.trails %}
       {% if trail.id != include.exclude %}
       <li>
-        <h3>{{ trail.title }}</h3>
+        <h3><a href="/trails/{{ trail.id }}">{{ trail.title }}</a></h3>
         <img src="/images/animals/{{ trail.image }}">
         <p>{{ trail.description }}</p>
         <a class="btn btn--2" href="/trails/{{ trail.id }}">See the trail</a>

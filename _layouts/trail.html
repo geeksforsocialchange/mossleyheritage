@@ -27,7 +27,7 @@ layout: default
         <div class="stop__year">{{ stop.year }}</div>
         <div class="stop__teaser">
           {{ stop.teaser }}
-          <p><a class="stop__link btn" href="stops/{{ forloop.index }}">Read the rest</a></p>
+          <p><a class="stop__link btn" href="{{ stop.url }}">Read the rest</a></p>
         </div>
       </div>
 

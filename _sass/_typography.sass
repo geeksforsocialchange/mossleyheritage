@@ -1,24 +1,13 @@
 body
+  +size_body
   font-family: $sans
   font-weight: 400
-  letter-spacing: -0.01rem
-  line-height: 1.5
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  +for-tablet-landscape-up
-    font-size: 1.125rem
-    line-height: 1.44444
-  +for-desktop-up
-    font-size: 1.25rem
-    line-height: 1.4
 
 a
   color: $black
   transition-duration: 0.3s
-
-// p
-//   margin-top: 0
-//   margin-bottom: 1.5em
 
 strong
   font-weight: 600
@@ -29,58 +18,35 @@ hr
 h1, h2, h3, .h1, .h2, .h3
   font-family: $serif
   font-weight: 500
+  a
+    text-decoration: none
 
 // Page title
 h1, .h1
-  font-size: 1.875rem
-  line-height: 1.166667em
-  letter-spacing: -0.04rem
+  +size_headline
   +for-tablet-portrait-up
-    font-size: 2.8125rem
-    line-height: 1.28888
     padding-right: 10%
     +underline
     &:after
       width: 50%
   +for-tablet-landscape-up
-    font-size: 1.875rem
-    line-height: 1.333333
     padding-right: 0
     &:after
       width: 83%
   +for-desktop-up
-    font-size: 2.8125rem
-    line-height: 1.288889
     &:after
       width: 80%
 
 // Page subtitles
 h2, .h2
-  font-size: 1.875rem
-  line-height: 1.166667em
-  letter-spacing: -0.04rem
-  +underline
-  +for-tablet-portrait-up
-    font-size: 2.1875rem
-    line-height: 1.14286
-    letter-spacing: -0.03rem
-  +for-tablet-landscape-up
-    font-size: 1.875rem
-    line-height: 1.333333
-    letter-spacing: -0.04rem
-  +for-desktop-up
-    +size_45
+  +size_headline
 
 h3, .h3
-  font-size: 1.125rem
-  line-height: 1.44444em
-  letter-spacing: -0.03rem
+  +size_subheader
 
 // Footer links
 h5, .h5
-  font-size: 1rem
-  line-height: 1.44444em
-  letter-spacing: -0.01rem
+  +size_16
   font-weight: 600
   padding-bottom: 0.75rem
   margin-bottom: 0.75rem
@@ -109,29 +75,19 @@ p.narrow
 
 // Larger intro paragraphs
 p.bigger
-  font-size: 1.125rem
-  +for-tablet-landscape-up
-    font-size: 1.25rem
-    line-height: 1.4
-  +for-desktop-up
-    font-size: 1.5rem
-    line-height: 1.33333
+  +size_large_body
 
 p.bigger--on-portrait
   +for-tablet-portrait-up
-    font-size: 1.125rem
-    line-height: 1.44444
+    +size_18
   +for-desktop-up
-    font-size: 1.5rem
-    line-height: 1.33333
+    +size_24
 
 // Smaller classes
 .smaller
-  font-size: 0.875rem
-  +for-tablet-landscape-up
-    font-size: 1rem
+  +size_small_body
 
-// Utility classes
+// Things that need a lil space
 h3.spacer
   padding-top: 2em
 

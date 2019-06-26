@@ -28,44 +28,116 @@ $serif: 'Inknut Antiqua', 'Georgia', serif
 
 $page-max-width: 93rem
 
+// Base letter spacing is set to -0.01rem
+
+// 14 / 20
 =size_14
   font-size: 0.875rem
-  // Double check this
-  line-height: 1.71428
+  line-height: 1.4286
 
-=size_18
-  font-size: 1.125rem
-  line-height: 1.333333
-
+// 16 / 24
 =size_16
   font-size: 1rem
   line-height: 1.5
 
+// 18 / 26
+=size_18
+  font-size: 1.125rem
+  line-height: 1.333333
+
+// 20 / 28
 =size_20
   font-size: 1.25rem
-  line-height: 1.5
+  line-height: 1.4
 
-=size_22
-  font-size: 1.375rem
-  line-height: 1.13636
-
+// 32 / 24
 =size_24
   font-size: 1.5rem
   line-height: 1.333333
-  letter-spacing: -0.01rem
 
+// 30 / 40
 =size_30
   font-size: 1.875rem
   line-height: 1.333333
+  letter-spacing: -0.04rem
 
+// Mystery style
 =size_32
   font-size: 2rem
   line-height: 1.25
 
+// 35 / 40
 =size_35
   font-size: 2.1875rem
-  line-height: 1.6
+  line-height: 1.14286
+  letter-spacing: -0.04rem
 
+// 45 / 58
 =size_45
   font-size: 2.8125rem
   line-height: 1.288889
+  letter-spacing: -0.04rem
+
+=size_headline
+  +size_30
+  +for-tablet-portrait-up
+    +size_45
+  +for-tablet-landscape-up
+    +size_30
+  +for-desktop-up
+    +size_45
+
+=size_title
+  +size_30
+  +for-tablet-portrait-up
+    +size_35
+  +for-tablet-landscape-up
+    +size_30
+  +for-desktop-up
+    +size_35
+
+=size_subheader
+  +size_16
+  letter-spacing: -0.03rem
+  +for-tablet-portrait-up
+    +size_18
+  +for-desktop-up
+    +size_30
+
+=size_navigation
+  +size_30
+  +for-tablet-portrait-up
+    +size_18
+  +for-desktop-up
+    +size_20
+
+=size_alt_subheader
+  +size_18
+  +for-tablet-portrait-up
+    +size_20
+  +for-tablet-landscape-up
+    +size_24
+  +for-desktop-up
+    +size_32
+
+=size_large_body
+  +size_18
+  +for-tablet-landscape-up
+    +size_20
+  +for-desktop-up
+    +size_24
+
+=size_body
+  +size_16
+  +for-tablet-landscape-up
+    +size_18
+  +for-desktop-up
+    +size_20
+
+=size_small_body
+  +size_14
+  +for-tablet-portrait-up
+    +size_16
+
+=size_button
+  +size_20

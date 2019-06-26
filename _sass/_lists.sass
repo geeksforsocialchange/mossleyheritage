@@ -6,14 +6,11 @@ ul.plain
   padding: 0
   li
     margin-bottom: 1rem
-    font-size: 0.875rem
-    line-height: 1.4286
+    +size_14
     +for-tablet-portrait-up
       +size_18
     +for-desktop-up
       +size_20
-
-
 
 ul.opening-times
   strong
@@ -23,13 +20,13 @@ ul.opening-times
     margin: 0rem 3rem 2rem 0
     display: inline-block
   &--bigger
-    font-size: 1.125rem
+    +size_18
   +for-desktop-up
-    font-size: 1.25rem
+    +size_20
 
 ul.bulleted
+  +size_18
   list-style: none
-  font-size: 1.125rem
   text-align: left
   margin-left: 1rem
   padding-left: 0
