@@ -1,7 +1,9 @@
 <nav role="navigation" class="navigation" id="js--navigation__menu">
   <ul class="reset">
     {% for item in site.data.menu %}
-      <li {% if page.url contains item.url %}class="active"{% endif %}><a href="/{{ item.url }}">{{ item.name }}</a></li>
+      {% unless item.url contains 'civic-society' %}
+        <li {% if page.url contains item.url %}class="active"{% endif %}><a href="/{{ item.url }}">{{ item.name }}</a></li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </nav>

@@ -1,40 +1,42 @@
-<div id="map"></div>
+<div id="map">
+  <div id="bat" class="map__marker map__marker--bat"></div>
+  <div id="crow" class="map__marker map__marker--crow"></div>
+  <div id="dog" class="map__marker map__marker--dog"></div>
+  <div id="goose" class="map__marker map__marker--goose"></div>
+  <div id="horse" class="map__marker map__marker--horse"></div>
+  <div id="emmaus" class="map__marker map__marker--emmaus map__marker--bigger"></div>
+</div>
 
 <script>
-  mapboxgl.accessToken = "{{ site.mapbox_token }}"
+mapboxgl.accessToken = "{{ site.mapbox_token }}"
+var trails = {{ site.data.trails | jsonify }}
+/* Map: This represents the map on the page. */
+var map = new mapboxgl.Map({
+  container: "map",
+  style: "{{ site.mapbox_style }}",
+  zoom: 14.5,
+  center: [-2.04025,53.51794]
+});
 
-  /* Map: This represents the map on the page. */
-  var map = new mapboxgl.Map({
-    container: "map",
-    style: "{{ site.mapbox_style }}",
-    zoom: 14,
-    center: [-2.04225,53.51517]
-  });
+// Don't let it zoom or it gets really annoying]
+map.scrollZoom.disable()
+map.addControl(new mapboxgl.NavigationControl());
 
-  map.scrollZoom.disable()
+// var markerArray = []
+map.on("load", function () {
+  for(i = 0; i < trails.length; i++) {
+    let id = document.getElementById(trails[i]['stops'])
+    let lonLat = [trails[i]['lon'], trails[i]['lat']]
+    let marker = new mapboxgl.Marker(id)
+                .setLngLat(lonLat)
+                .addTo(map)
+    // markerArray.push(lonLat)
 
-  map.on("load", function () {
-    /* Style layer: A style layer ties together the source and image and specifies how they are displayed on the map. */
-    traildata.features.forEach(function(trail, idx) {
-      map.addLayer({
-        id: "markers" + idx,
-        type: "line",
-        /* Source: A data source specifies the geographic coordinate where the image marker gets placed. */
-        source: {
-          type: "geojson",
-          data: trail
-        }
-      });
-    })
-    // Make the map scale to fit everything in
-    // var bounds = new mapboxgl.LngLatBounds();
-    //
-    // traildata.features.forEach(function(feature) {
-    //   feature.geometry.coordinates.forEach(function(marker) {
-    //     bounds.extend(marker);
-    //   })
-    // });
-    //
-    // map.fitBounds(bounds, { padding: 50 });
-  });
+  }
+  let marker = document.getElementById('emmaus')
+  new mapboxgl.Marker(marker)
+              .setLngLat([-2.03996, 53.51519])
+              .addTo(map)
+})
+
 </script>

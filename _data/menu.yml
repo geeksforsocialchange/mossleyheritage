@@ -11,5 +11,8 @@
   url: visit
   name: Visit the centre
 -
+  url: civic-society
+  name: Civic society
+-
   url: contact
   name: Get in touch

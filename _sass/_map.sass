@@ -1,3 +1,49 @@
 #map
   width: 100%
-  height: 400px
+  height: 500px
+
+.map__marker
+  background-image: url('/images/markers/blank.svg')
+  width: (150px / 6)
+  height: (225px / 6)
+  margin-top: -(225px / 12)
+
+  &--emmaus
+    background-image: url('/images/markers/centre.svg')
+  &--bat
+    background-image: url('/images/markers/bat.svg')
+  &--crow
+    background-image: url('/images/markers/crow.svg')
+  &--dog
+    background-image: url('/images/markers/dog.svg')
+  &--goose
+    background-image: url('/images/markers/goose.svg')
+  &--horse
+    background-image: url('/images/markers/horse.svg')
+
+  &--bigger
+    width: (150px / 4)
+    height: (225px / 4)
+
+
+.stop__map
+  &--1 .map__marker
+    background-image: url('/images/markers/01.svg')
+  &--2 .map__marker
+    background-image: url('/images/markers/02.svg')
+  &--3 .map__marker
+    background-image: url('/images/markers/03.svg')
+  &--4 .map__marker
+    background-image: url('/images/markers/04.svg')
+  &--5 .map__marker
+    background-image: url('/images/markers/05.svg')
+  &--6 .map__marker
+    background-image: url('/images/markers/06.svg')
+  &--7 .map__marker
+    background-image: url('/images/markers/07.svg')
+  &--8 .map__marker
+    background-image: url('/images/markers/08.svg')
+  &--9 .map__marker
+    background-image: url('/images/markers/09.svg')
+  &--final .map__marker
+    background-image: url('/images/markers/centre.svg')

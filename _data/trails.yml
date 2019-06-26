@@ -7,6 +7,8 @@
   school: Micklehurst All Saints School
   school_logo: MH_School_Micklehurst@2x.png
   stops: goose
+  lat: 53.5154
+  lon: -2.02668
 -
   id: dogs-life
   title: A Dog's Life
@@ -16,6 +18,8 @@
   school: St Joseph's School
   school_logo: MH_School_StJosephs@2x.png
   stops: dog
+  lat: 53.51794
+  lon: -2.04631
 -
   id: crow-flies
   title: As the Crow Flies
@@ -25,6 +29,8 @@
   school: Milton St John’s School
   school_logo: MH_School_StJohns@2x.png
   stops: crow
+  lat: 53.5209
+  lon: -2.04119
 -
   id: bats-eye-view
   title: A Bat’s Eye View
@@ -34,6 +40,8 @@
   school: St George’s School
   school_logo: MH_School_StGeorges@2x.png
   stops: bat
+  lat: 53.51713
+  lon: -2.04884
 -
   id: horses-tale
   title: A Horse’s Tale
@@ -43,3 +51,5 @@
   school: Livingstone Primary School
   school_logo: MH_School_Livingstone@2x.png
   stops: horse
+  lat: 53.51403
+  lon: -2.04523
