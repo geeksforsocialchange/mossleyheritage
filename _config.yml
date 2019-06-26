@@ -4,6 +4,9 @@ google_analytics_code: UA-121415406-1
 
 collections_dir: collections
 
+title: Mossley Heritage
+description: Mossley is a typical former mill town for the wool and cotton industry. Discover how it grew from a hamlet with otters and eagles in the valley bottom to the thriving town it is today.
+
 collections:
   goose:
     output: true
