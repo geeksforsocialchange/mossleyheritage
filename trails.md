@@ -27,7 +27,7 @@ scheme: trail
 {:.title .udl--title}
 
 Want to bring a school group? We deliver Mossley trail and heritage workshops for primary school children (key stage 2), and other local children’s groups.
-{:.bigger}
+{:.alt-subheader .subheader--narrow .small-spacer}
 
 <div class="lozenge lozenge--grid" markdown="1">
 <div class="lozenge__section" markdown="1">
@@ -82,7 +82,7 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
 <div class="filled filled--additional-trails">
 <section class="section section--centred" markdown="1">
 ## Additional trails
-{:.narrow .narrow--centered}
+{:.title .udl--title}
 
 We have a few older trails which can be downloaded below as printable PDF files.
 {:.narrow .narrow--centered}

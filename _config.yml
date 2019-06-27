@@ -3,6 +3,7 @@ description: Mossley is a typical former mill town for the wool and cotton indus
 mapbox_token: "pk.eyJ1IjoibW9zc2xleWhlcml0YWdlIiwiYSI6ImNqeDFzOGk2MDBjMWgzeW1xYXZ3cjA5eTgifQ.wDNyjGwJn0ZEof6REf-xVQ"
 mapbox_style: "mapbox://styles/mossleyheritage/cjx1t82kj053c1cpaoaupfxfh"
 google_analytics_code: UA-121415406-1
+url: https://beta.mossleyheritage.org
 
 html_proofer:
   check_favicon: true
