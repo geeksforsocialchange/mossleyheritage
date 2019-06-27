@@ -1,6 +1,8 @@
 .stop-page
   +bevel(2rem)
   padding: 1rem $page-gutter 2.5rem
+  max-width: 1170px
+  margin: 0 auto
   &__title
     +size_18
     text-align: center
@@ -22,6 +24,11 @@
     display: block
     margin-left: auto
     margin-right: auto
+    +for-tablet-landscape-up
+      max-height: none
+      max-width: 85%
+    +for-desktop-up
+      max-width: 80%
   img + em
     padding-top: 1rem
     display: block
@@ -70,10 +77,10 @@
     text-align: center
   p:nth-child(2)
     font-weight: 600
-  +for-tablet-portrait-up
+  +for-tablet-landscape-up
     img
       float: left
-      max-width: 30%
+      max-width: 50%
       margin-top: -1rem
       margin-right: 2rem
       margin-bottom: 1rem
@@ -85,3 +92,15 @@
   +for-desktop-up
     padding-left: 10rem
     padding-right: 10rem
+
+// @supports (display:grid)
+//   .stop__fact
+//     display: grid
+//     grid-template-columns: 200px 1fr
+//     grid-gap: 0 $page-gutter
+//     img
+//       max-width: 100%
+//     *
+//       grid-column: 2
+//     p:first-child
+//       grid-column: 1

@@ -5,14 +5,17 @@ layout: default
 {% assign stops = site[trail.stops] %}
 
 <section class="section section--centred">
-<h1 class="underline">{{ trail.title }}</h1>
-
-<div class="trail-logos">
-  <img src="/images/animals/{{ trail.image }}" alt="An image of {{ trail.animal }}">
-  <img src="/images/schools/{{ trail.school_logo }}" alt="{{ trail.school }}'s logo">
+<div class="trail__intro">
+  <h1 class="no-udl">{{ trail.title }}</h1>
+  <hr>
+  <div class="trail__logos">
+    <img src="/images/animals/{{ trail.image }}" alt="An image of {{ trail.animal }}">
+    <img src="/images/schools/{{ trail.school_logo }}" alt="{{ trail.school }}'s logo">
+  </div>
+  <div class="trail__content">
+    {{ content }}
+  </div>
 </div>
-
-{{ content }}
 
 <ol class="reset stops">
   {% for stop in stops %}

@@ -10,7 +10,10 @@ layout: default
     {{ content }}
     <hr>
     <nav aria-label="Blog navigation">
-      <a href="../" class="btn btn--3">Go back</a></li>&nbsp;&nbsp;&nbsp;
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="btn btn--3">Last stop</a>
+      {% endif %}
+      <a href="../" class="btn btn--3">Trail home</a></li>
       {% if page.next %}
         <a href="{{ page.next.url }}" class="btn btn--3">Next stop</a>
       {% endif %}
