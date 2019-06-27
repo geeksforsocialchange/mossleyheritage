@@ -135,6 +135,16 @@ h2, .h2
 .alt-subheader
   +size_alt_subheader
 
+.subheader--narrow
+  +for-tablet-portrait-up
+    width: 60%
+    margin-left: auto
+    margin-right: auto
+  +for-tablet-landscape-up
+    width: 85%
+  +for-desktop-up
+    width: 70%
+
 h3, .h3
   +size_subheader
 
@@ -180,6 +190,10 @@ p.bigger--on-portrait
 // Smaller classes
 .smaller
   +size_small_body
+
+.small-spacer
+  margin-top: 2.75rem
+  margin-bottom: 2.75rem
 
 // Things that need a lil space
 h3.spacer

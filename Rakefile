@@ -7,7 +7,8 @@ task :test do
     check_favicon: true,
     check_opengraph: true,
     check_html: true,
-    empty_alt_ignore: true
+    empty_alt_ignore: true,
+    checks_to_ignore: ['LinkCheck']
   }
   HTMLProofer.check_directory("./_site", options).run
 end
