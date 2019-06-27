@@ -15,14 +15,44 @@
     img
       width: 60%
 
-.trail-logos
+.trail__intro
+  hr
+    margin: 2rem auto
+    display: block
+  +for-tablet-portrait-up
+    width: 80%
+    margin: 0 auto
+    hr
+      width: 75%
+  +for-tablet-landscape-up
+    position: relative
+    width: 50%
+
+.trail__content
+  p:first-child
+    +for-tablet-portrait-up
+      +size_20
+    +for-desktop-up
+      +size_24
+  hr + p
+    +for-desktop-up
+      width: 75%
+      margin: 0 auto
+
+.trail__logos
   img
     display: inline-block
     width: 45%
   +for-tablet-portrait-up
     width: 70%
     margin: 0 auto
-
+  +for-tablet-landscape-up
+    img
+      position: absolute
+    img:first-child
+      left: -50%
+    img:last-child
+      right: -50%
 .stops
   // display: grid
   // grid-template-columns: auto 1fr 250px
@@ -49,7 +79,9 @@
 .stop
   padding: 2rem $page-gutter
   margin-top: 4rem
-  margin-bottom: 2rem
+  margin-bottom: 1rem
+  +for-tablet-portrait-up
+    margin-bottom: 2rem
   position: relative
   +bevel2($clip: 0.75rem)
   &__id
@@ -74,7 +106,10 @@
         content: 'Stop '
   &__directions
     +size_14
-    margin-top: 0.75rem
+    margin-top: 0.5rem
+    margin-bottom: 0rem
+    +for-tablet-portrait-up
+      margin-top: 0.75rem
   &__title
     +size_18
     margin-bottom: 0
@@ -87,6 +122,8 @@
     +size_18
     color: $white
     font-family: $serif
+    +for-phone-only
+      margin-bottom: 1rem
   &__map
     margin: 1.5rem 0
     height: 200px
@@ -102,7 +139,8 @@
       height: 300px
       margin-bottom: 0
   &__teaser
-    padding-bottom: 2rem
+    +for-tablet-portrait-up
+      padding-bottom: 2rem
   &__link
     background: $white
 
@@ -131,6 +169,9 @@
     &__year
       margin-top: 0.1rem
       margin-bottom: 1rem
+      +for-desktop-up
+        margin-top: 0.5rem
+        margin-bottom: 3rem
     &__map
       margin-bottom: 0
     a.stop__link
