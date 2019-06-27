@@ -24,6 +24,7 @@ scheme: trail
 <section class="section section--centred" markdown="1">
 
 ## Information for schools
+{:.title .udl--title}
 
 Want to bring a school group? We deliver Mossley trail and heritage workshops for primary school children (key stage 2), and other local children’s groups.
 {:.bigger}

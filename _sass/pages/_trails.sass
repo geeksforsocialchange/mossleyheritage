@@ -26,15 +26,13 @@ ul.trails
       flex: 0 1 18%
   h3
     display: inline-block
+    +underline
+    +underline--centre
     &:after
-      content: ''
-      display: block
+      margin-top: 0.5rem
       padding-top: 0.5rem
-      width: 50%
-      margin: 0 auto
-      border-width: 0 0 3px 0
-      border-style: solid
       border-color: $trails-dark
+      width: 50%
     +for-tablet-portrait-up
       &:after
         width: 40%
