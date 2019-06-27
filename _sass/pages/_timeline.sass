@@ -1,4 +1,11 @@
+=for-timeline-portrait-up
+  @media (min-width: 800px)
+    @content
+
 .timeline
+  section
+    padding-top: 1rem
+    padding-bottom: 1.5rem
   li
     padding: 0 $page-gutter
     &:nth-child(2n - 1)
@@ -28,15 +35,18 @@
       +size_35
   &__title
     margin-top: 0.5rem
+    margin-bottom: 1.5rem
     +size_20
+    +for-tablet-portrait-up
+      margin-bottom: 0.5rem
     +for-tablet-landscape-up
       +size_30
     +for-desktop-up
-      +size_45
+      +size_35
   &__description
     &:last-child
       margin-bottom: 0 !important
-    +for-tablet-portrait-up
+    +for-timeline-portrait-up
       border-width: 3px 0 0 0
       border-style: solid
       padding-top: 1.5em
@@ -46,14 +56,17 @@
     text-align: center
     img
       +bevel(1rem)
-      max-height: 18rem
+      max-height: 400px
+      +for-timeline-portrait-up
+        max-height: 330px
+        max-width: 330px
     +for-tablet-portrait-only
       margin-left: 3rem
-    +for-tablet-portrait-up
+    +for-timeline-portrait-up
       margin-left: 1rem
 
 @supports (display: grid)
-  +for-tablet-portrait-up
+  +for-timeline-portrait-up
     .timeline li .section
       display: grid
       grid-template-columns: 5fr 4fr
@@ -66,14 +79,22 @@
       grid-area: title
     .event__image
       grid-area: image
-      grid-row: span 2
+      grid-row: span 4
+      align-self: center
     .event__description
       grid-area: description
   +for-desktop-up
     .timeline li .section
       grid-template-columns: 1fr 6fr 5fr
-      grid-template-rows: auto 1fr
-      grid-template-areas: "year title image" ". description image"
+      grid-template-rows: 1fr auto auto 1fr
+      grid-template-areas: ". . image" "year title image" ". description image" ". . image"
       grid-gap: 0 3rem
     .event__year
       display: inline-block
+
+  .event--no-description .section
+    +for-desktop-up
+      grid-template-areas: ". . image" "year title image" ". . image" !important
+      grid-template-rows: 1fr auto 1fr !important
+      .event__image
+        grid-row: span 3
