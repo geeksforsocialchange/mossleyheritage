@@ -1,7 +1,11 @@
-.trails
+ul.trails
   display: flex
   flex-wrap: wrap
   justify-content: center
+  +for-tablet-landscape-up
+    margin: 0 -4rem
+  +for-desktop-up
+    margin: 0 -6rem
   li
     flex: 1 1 46.5%
     margin-bottom: 2rem
@@ -26,14 +30,24 @@
       content: ''
       display: block
       padding-top: 0.5rem
-      width: 80%
+      width: 50%
       margin: 0 auto
       border-width: 0 0 3px 0
       border-style: solid
       border-color: $trails-dark
+    +for-tablet-portrait-up
+      &:after
+        width: 40%
+    +for-tablet-portrait-up
+      &:after
+        width: 60%
+    +for-desktop-up
+      +size_24
   .btn
     padding: 0.1em 1em
     margin: 0 1rem
+    +for-tablet-landscape-up
+      padding: 0.25em 1em
   p
     +size_small_body
     margin-bottom: 1rem

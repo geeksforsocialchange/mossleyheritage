@@ -2,7 +2,13 @@
   <ul class="reset">
     {% for item in site.data.menu %}
       {% unless item.url contains 'civic-society' %}
-        <li {% if page.url contains item.url %}class="active"{% endif %}><a href="/{{ item.url }}">{{ item.name }}</a></li>
+        {% if item.url == null and page.url == '/' %}
+          <li class="active"><a href="/{{ item.url }}">{{ item.name }}</a></li>
+        {% elsif page.url contains item.url %}
+          <li class="active"><a href="/{{ item.url }}">{{ item.name }}</a></li>
+        {% else %}
+          <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
+        {% endif %}
       {% endunless %}
     {% endfor %}
   </ul>

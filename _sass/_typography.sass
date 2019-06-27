@@ -1,3 +1,67 @@
+=size_headline
+  +size_30
+  +for-tablet-portrait-up
+    +size_35
+  +for-tablet-landscape-up
+    +size_30
+  +for-desktop-up
+    +size_45
+
+=size_title
+  +size_30
+  +for-tablet-portrait-up
+    +size_35
+  +for-tablet-landscape-up
+    +size_30
+  +for-desktop-up
+    +size_35
+
+=size_subheader
+  +size_16
+  letter-spacing: -0.03rem
+  +for-tablet-portrait-up
+    +size_18
+  +for-desktop-up
+    +size_30
+
+=size_navigation
+  +size_30
+  +for-tablet-portrait-up
+    +size_18
+  +for-desktop-up
+    +size_20
+
+=size_alt_subheader
+  +size_18
+  +for-tablet-portrait-up
+    +size_20
+  +for-tablet-landscape-up
+    +size_24
+  +for-desktop-up
+    +size_32
+
+=size_large_body
+  +size_18
+  +for-tablet-landscape-up
+    +size_20
+  +for-desktop-up
+    +size_24
+
+=size_body
+  +size_16
+  +for-tablet-landscape-up
+    +size_18
+  +for-desktop-up
+    +size_20
+
+=size_small_body
+  +size_14
+  +for-tablet-portrait-up
+    +size_16
+
+=size_button
+  +size_20
+
 body
   +size_body
   font-family: $sans
@@ -24,22 +88,51 @@ h1, h2, h3, .h1, .h2, .h3
 // Page title
 h1, .h1
   +size_headline
+  margin-bottom: 1em
   +for-tablet-portrait-up
-    padding-right: 10%
     +underline
+    padding-right: 10%
+    margin-bottom: 1rem
     &:after
+      margin-top: 2rem
       width: 50%
   +for-tablet-landscape-up
     padding-right: 0
     &:after
       width: 83%
   +for-desktop-up
+    margin-bottom: 2rem
     &:after
+      margin-top: 3rem
       width: 80%
 
 // Page subtitles
 h2, .h2
   +size_headline
+  +underline
+  &:after
+    margin-top: 1.25rem
+  +for-tablet-portrait-up
+    margin-bottom: 2rem
+    &:after
+      margin-top: 2rem
+
+  &.udl--narrow
+    +for-tablet-portrait-up
+      &:after
+        width: 60%
+    +for-tablet-landscape-up
+      &:after
+        width: 50%
+    +for-desktop-up
+      &:after
+        width: 33%
+
+.title
+  +size_title
+
+.alt-subheader
+  +size_alt_subheader
 
 h3, .h3
   +size_subheader

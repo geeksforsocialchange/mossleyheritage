@@ -1,7 +1,7 @@
 <div class="textured">
   <section class="section section--centred">
-    <h2 id="select-a-trail">Select a trail</h2>
-    <p>Each trail was researched by one of Mossley’s schools and takes you across seven places exploring our local history!</p>
+    <h2 id="select-a-trail" class="title udl--narrow">Select a trail</h2>
+    <p class="alt-subheader">Each trail was researched by one of Mossley’s schools and takes you across seven places exploring our local history!</p>
     <ul class="trails reset">
     {% for trail in site.data.trails %}
       {% if trail.id != include.exclude %}

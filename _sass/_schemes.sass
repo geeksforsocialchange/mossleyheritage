@@ -1,6 +1,11 @@
 .scheme
   .btn--1 a, a.btn--1
     background-color: $home-light
+  .btn--2 a, a.btn--2
+    background: $home-dark
+    &:hover
+      color: $white
+      background: $black
   a:hover
     color: $home-dark
   .dark-colour
@@ -8,6 +13,8 @@
     fill: $home-dark
   *
     border-color: $home-light
+  .textured h2
+    border-color: $home-dark
   &--trail
     a:hover
       color: $trails-dark
@@ -22,9 +29,6 @@
       background: $trails-light
     .btn--2 a, a.btn--2
       background: $trails-dark
-      &:hover
-        color: $white
-        background: $black
     .filled
       background-color: $trails-light
     .textured

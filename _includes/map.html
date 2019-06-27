@@ -24,6 +24,8 @@ map.addControl(new mapboxgl.NavigationControl());
 
 // var markerArray = []
 map.on("load", function () {
+  // [left of bat, bottom of horse], [right of goose, top of crow]
+  map.fitBounds([[-2.04884, 53.51403], [-2.02668, 53.5209]], { padding: { top: 50, bottom: 20, left: 100, right: 100 }})
   for(i = 0; i < trails.length; i++) {
     let id = document.getElementById(trails[i]['stops'])
     let lonLat = [trails[i]['lon'], trails[i]['lat']]
