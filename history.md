@@ -23,7 +23,11 @@ scheme: history
     <div class="section">
       <div class="event__year">{{ event.year }}</div>
       <h3 class="event__title">{{ event.title }}</h3>
-      <div class="event__image"><img src="/images/timeline/{{ event.image }}"></div>
+      <div class="event__image">
+        {% if event.image %}
+          <img src="/images/timeline/{{ event.image }}">
+        {% endif %}
+      </div>
       {% if event.description %}
         <p class="event__description">{{ event.description }}</p>
       {% endif %}
