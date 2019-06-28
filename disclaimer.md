@@ -1,8 +1,7 @@
 ---
-Title: Disclaimer
+title: Disclaimer
+layout: legal
 ---
-
-<article class="section" markdown="1">
 
 # Heritage trail disclaimer
 
@@ -19,5 +18,3 @@ While following the trails using a map or a phone, care should always be taken t
 [Back to trails](/trails){:.btn .btn--1}
 
 _Last updated 20/06/19_
-
-</article>

@@ -12,7 +12,7 @@ scheme: visit
 {:.layout__image}
 
 The centre is occupied by a massive baling machine, artefacts, archives, memorabilia, maps, books by local historians, furniture, photographic collections, a schoolroom, kitchen and living area.
-{:.bigger-on-portrait}
+{:.large-body}
 </div>
 </section>
 
@@ -20,7 +20,7 @@ The centre is occupied by a massive baling machine, artefacts, archives, memorab
 <section class="section">
 <div class="relative visit--visiting-the-centre" markdown="1">
 ## Visiting the centre
-{:.narrow}
+{:.title .narrow}
 
 The centre is located at Longlands Mill, Mossley, Queen Street, OL5 9AH.
 {:.narrow .bigger--on-portrait}
@@ -35,7 +35,7 @@ Admittance is free.
 {:.bigger .spacer}
 
 ## Opening Times
-{:.narrow}
+{:.narrow .title}
 
 - **Wednesday to Friday** 2.00pm – 4.00pm
 - **Saturday** 12.00pm – 2.00pm
@@ -61,6 +61,7 @@ Admittance is free.
 {:.layout__image}
 
 Did you know that there was a murder in the cinema and an attempted bank robbery in Mossley?
+{:.large-body}
 </div>
 </section>
 </div>
@@ -71,6 +72,7 @@ Did you know that there was a murder in the cinema and an attempted bank robbery
 {:.layout__image}
 <br><br>
 Learn the weird and wonderful stories of people trading jars of wee for cloth and the men who were dressed as shepherds but didn’t own any sheep!
+{:.large-body}
 
 [Arrange your visit](#visiting-the-centre)
 {:.btn .btn--1}
@@ -82,6 +84,7 @@ Learn the weird and wonderful stories of people trading jars of wee for cloth an
 <section class="section">
 <div class="lozenge" markdown="1">
 ## Discover
+{:.title}
 
 - Flying shuttles & bobbins
 - Cotton & clogs
@@ -91,13 +94,13 @@ Learn the weird and wonderful stories of people trading jars of wee for cloth an
 - Gazunders, slipper baths & commodes
 - Bottles & stone jars
 - Maps from over the years
-{:.bulleted .cols}
+{:.bulleted .cols .discover-list}
 </div>
 </section>
 </div>
 
 <section class="section">
-  <div class="layout layout--main">
+  <div class="layout layout--main visit--get-involved">
     <h2 class="layout__title">Get involved</h2>
     <div class="layout__text-top">
       <p class="bigger">The centre is run by Mossley Civic Society volunteers – come and join us!</p>

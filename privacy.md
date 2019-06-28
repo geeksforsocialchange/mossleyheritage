@@ -1,9 +1,9 @@
 ---
-Title: Privacy Policy
+title: Privacy Policy
+layout: legal
 ---
-<article class="section" markdown="1">
 
-# Mossley Civic Society - Data Protection and Privacy Policy
+# Mossley Civic Society Data Protection and Privacy Policy
 
 ## 1. Introduction
 
@@ -11,7 +11,7 @@ In May 2018 the General Data Protection Regulation (GDPR) comes into effect. It 
 
 ## 2. Definitions
 
-"The Society", "we", "us" and "our" refer to Mossley Civic Society. "Data" refers to information held by the Society identifying or relating to individuals. For the purposes of the General Data Protection Regulation Mossley Civic Society is both the Controller and the Processor of the data.
+"The Society", "we", "us" and "our" refer to Mossley Civic Society. "Data" refers to information held by the Society identifying or relating to individuals. For the purposes of the General Data Protection Regulation Mossley Civic Society is both the Controller and the Processor of the data.
 
 ## 3. Data
 
@@ -54,5 +54,3 @@ Individuals have a right to ask us to remove the data we have for them. If they 
 - When sending a group email within the Society (e.g. to committee members or to other groups of members) the email should be addressed to one recipient (possibly the sender's own email address). All other recipients should then be added via the BCC option ('blind carbon copy'). Individuals' email addresses should not be made publicly known without the agreement of those individuals.
 
 _Last updated 01/05/18_
-
-</article>
