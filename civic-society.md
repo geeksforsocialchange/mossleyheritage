@@ -85,10 +85,10 @@ Civic Society members can volunteer for the Heritage Centre rota, provide suppor
 ![Some illustrations of the area](/images/civic-society/MH_CivicSociety_4_Volunteer@2x.png)
 {:.layout__image}
 
-Contact Dyllis Wolinski on 01457 837 287 or fill in our form which is available at the centre and downloadable below.
+Contact Dyllis Wolinski on 01457 837 287, fill in a form at the centre, or see our other contact options.
 {:.narrowish}
 
-[Download form](/){:.btn .btn--1}
+[Get in touch](/contact){:.btn .btn--1}
 </div>
 </section>
 
