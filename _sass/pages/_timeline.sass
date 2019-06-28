@@ -64,6 +64,12 @@
       margin-left: 3rem
     +for-timeline-portrait-up
       margin-left: 1rem
+  &:first-of-type
+    img
+      +for-tablet-landscape-up
+        max-width: 444px
+      +for-desktop-up
+        max-width: 500px
 
 @supports (display: grid)
   +for-timeline-portrait-up

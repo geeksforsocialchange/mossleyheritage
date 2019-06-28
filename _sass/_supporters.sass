@@ -1,13 +1,26 @@
-.supporters
-  display: grid
-  grid-template-columns: 1fr 1fr
-  grid-gap: $page-gutter
+// .supporters
+//   display: grid
+//   grid-template-columns: 1fr 1fr
+//   grid-gap: $page-gutter
+//   align-items: center
+//   li
+//     width: 100%
+//     grid-column: auto
+//     +for-tablet-portrait-up
+//       width: 10rem
+//   &__emmaus
+//     align-self: end
+//   img, svg
+//     height: 100%
+
+ul.supporters
+  display: flex
   align-items: center
+  margin-bottom: 2rem
   li
-    width: 100%
-  &__emmaus
-    align-self: end
-  svg
-    width: 100%
-  svg, img
-    max-height: 5rem
+    width: 12rem
+    margin-right: 2rem
+    +for-desktop-up
+      width: 15rem
+    img
+      margin: 0
