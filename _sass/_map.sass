@@ -1,12 +1,28 @@
 #map
   width: 100%
-  height: 500px
+  height: 375px
+  +for-tablet-portrait-up
+    height: 400px
+  +for-tablet-landscape-up
+    height: 530px
+  +for-desktop-up
+    height: 800px
 
 .map__marker
   background-image: url('/images/markers/blank.svg')
   width: (150px / 6)
   height: (225px / 6)
   margin-top: -(225px / 12)
+  +for-desktop-up
+    width: (150px / 4)
+    height: (225px / 4)
+    margin-top: -(225px / 8)
+  &--bigger
+    width: (150px / 4)
+    height: (225px / 4)
+    +for-desktop-up
+      width: (150px / 3)
+      height: (225px / 3)
 
   &--emmaus
     background-image: url('/images/markers/centre.svg')
@@ -20,10 +36,6 @@
     background-image: url('/images/markers/goose.svg')
   &--horse
     background-image: url('/images/markers/horse.svg')
-
-  &--bigger
-    width: (150px / 4)
-    height: (225px / 4)
 
 .stop__map
   &--1 .map__marker

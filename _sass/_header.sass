@@ -45,10 +45,18 @@
       position: absolute
       top: 0
       right: $page-margin-landscape
-  @media (min-width: 93rem)
+  +for-desktop-up
+    &__logo
+      width: 147.17px
+      height: 115.03p x
+      margin-top: 5rem
+      margin-bottom: 6rem
+    &__menu
+      margin-top: 4.5rem
+  @media (min-width: $page-max-width)
     &__menu
       // $page-max-width - ($page-margin-landscape * 2)
-      width: $page-max-width - 10rem
+      width: 83.5rem
       left: 0
       right: 0
       margin-left: auto

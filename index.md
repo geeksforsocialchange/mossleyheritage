@@ -34,7 +34,7 @@ scheme: home
 </div>
 
 <div class="filled">
-  <section class="section">
+  <section class="section section--thick">
     <div class="layout layout--index-uncover">
       <div class="layout__text-top">
         <h2 class="narrow">Uncover hidden stories at our heritage centre</h2>

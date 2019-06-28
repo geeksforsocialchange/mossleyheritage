@@ -15,7 +15,7 @@ var trails = {{ site.data.trails | jsonify }}
 var map = new mapboxgl.Map({
   container: "map",
   style: "{{ site.mapbox_style }}",
-  zoom: 14.5,
+  zoom: 14,
   center: [-2.04025,53.51794]
 });
 
@@ -29,7 +29,7 @@ map.on("load", function () {
   // [left of bat, bottom of horse], [right of goose, top of crow]
   map.fitBounds(
     [[-2.04884, 53.51403], [-2.02668, 53.5209]],
-    { padding: { top: 50, bottom: 20, left: 50, right: 50 } }
+    { padding: { top: 80, bottom: 20, left: 50, right: 50 } }
   )
   for(i = 0; i < trails.length; i++) {
     let id = document.getElementById(trails[i]['stops'])

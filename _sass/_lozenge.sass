@@ -5,9 +5,6 @@
   border-image-slice: 30
   margin: 0.25rem 0
   padding: 0 1rem
-  &--padded
-    padding-top: 2rem
-    padding-bottom: 2rem
   h2
     margin-top: 0
     margin-bottom: 2rem
@@ -15,7 +12,6 @@
     &::after
       padding-top: 2rem
       width: 50%
-
   h3
     &::after
       padding-top: 1rem
@@ -28,12 +24,15 @@
       border-width: 0 0 3px 0
       border-style: solid
       border-color: $white
-  +for-tablet-landscape-up
-    padding-left: 3rem
-    padding-right: 3rem
   +for-desktop-up
     width: 83.33333%
     margin: 0 auto
+
+  &--padded
+    padding-top: 2rem
+    padding-bottom: 2rem
+    +for-desktop-up
+      padding: 3rem 2rem
 
 +for-tablet-portrait-up
   .lozenge--grid
