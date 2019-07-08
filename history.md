@@ -38,8 +38,6 @@ scheme: history
 
 
 <section class="section section--centred" markdown="1">
-[Discover more at the centre](/visit){:.btn .btn--1}
-
-<!-- [Download History Resource List](/){:.btn .btn--1} -->
+[Discover more at the centre](/visit){:.btn .btn--1} [Download History Resource List](/downloads/history-resources-june-2019.pdf){:.btn .btn--1}
 
 </section>
