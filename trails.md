@@ -66,7 +66,7 @@ Want to bring a school group? We deliver Mossley trail and heritage workshops fo
 A team of 134 project workers with ages ranging from 8–84 (powered by a shared enthusiasm for heritage) trawled the internet, read local books, studied old photos, mined the memories of relatives and explored the archives at the heritage centre to ensure that the trails bring the Mossley of the past to life.
 {:.bigger--on-portrait}
 
-![Photograph of a trail board](/images/trails/MH_Trails_photo_of_boards_treated.jpg)
+![Photograph of a trail board](/images/trails/MH_Trails_photo_of_boards_treated.jpg){:.space-top}
 {:.layout__image}
 
 <div markdown="1">
