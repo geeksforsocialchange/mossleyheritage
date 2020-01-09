@@ -27,7 +27,7 @@ Longlands Mill,
 Queen Street,
 Mossley,
 Ashton-under-Lyne,
-OL5 5AH
+OL5 9AH
 </div>
 <div class="contact-options__block contact__opening-times" markdown="1">
 ## Opening <br>times
