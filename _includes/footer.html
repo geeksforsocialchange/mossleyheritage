@@ -3,10 +3,27 @@
     <div class="lozenge lozenge--padded">
       <h2 class="title udl--title">Keep up to date</h2>
 
-      <p class="large-body">Follow us on Facebook to see what's happening with Mossley Heritage.</p>
+      <p class="large-body">
+        Follow us on Facebook to see what's happening with Mossley Heritage.
+      </p>
 
-       <a class="btn btn--3" href="https://www.facebook.com/mossleyheritage">Visit our Facebook page</a>
-     </div>
+      <a
+        class="btn btn--3 btn--space-bottom"
+        href="https://www.facebook.com/mossleyheritage"
+        >Visit our Facebook page</a
+      >
+
+      <p class="large-body">
+        Visit our Youtube channel to enjoy audio and video stories along all
+        five trails.
+      </p>
+
+      <a
+        class="btn btn--3"
+        href="https://www.youtube.com/@MossleyHeritageProject"
+        >Visit our Youtube channel</a
+      >
+    </div>
   </section>
 </div>
 
@@ -15,9 +32,9 @@
     <h5>Sitemap</h5>
 
     <ul class="reset">
-     {% for item in site.data.menu %}
-       <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
-     {% endfor %}
+      {% for item in site.data.menu %}
+      <li><a href="/{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 
@@ -34,18 +51,22 @@
     <h5>Mossley Heritage</h5>
 
     <p>
-      <strong>T:</strong> 01457 838 608<br>
-      <strong>E:</strong> <a href="mailto:hello@mossleyheritage.org">hello@mossleyheritage.org</a>
+      <strong>T:</strong> 01457 838 608<br />
+      <strong>E:</strong>
+      <a href="mailto:hello@mossleyheritage.org">hello@mossleyheritage.org</a>
     </p>
-
-    <p><a href="https://tinyletter.com/mossleyheritage">Sign up to our email list</a></p>
 
     <p>
-      Longlands Mill, Queen Street, Mossley,<br>
-      Ashton-under-Lyne, OL5 5AH<br><br>
-      &copy; 2019 Mossley Civic Society
+      <a href="https://tinyletter.com/mossleyheritage"
+        >Sign up to our email list</a
+      >
     </p>
 
+    <p>
+      Longlands Mill, Queen Street, Mossley,<br />
+      Ashton-under-Lyne, OL5 5AH<br /><br />
+      &copy; 2019 Mossley Civic Society
+    </p>
   </div>
 
   <div class="footer__supporters">
@@ -57,6 +78,7 @@
   </div>
 
   <div class="footer__credit dark-colour smaller">
-    Site by <a href="https://gfsc.studio" class="dark-colour">GFSC</a> + <a href="http://designbysquid.co.uk" class="dark-colour">Squid</a>
+    Site by <a href="https://gfsc.studio" class="dark-colour">GFSC</a> +
+    <a href="http://designbysquid.co.uk" class="dark-colour">Squid</a>
   </div>
 </section>
