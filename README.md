@@ -2,6 +2,17 @@
 
 This site is build with jekyll and can be viewed at https://mossleyheritage.org/
 
+## Requirements
+
+- Ruby 2.7.x. We reccomend using a version manager for this such as `rvm` or `rbenv`. Current version we are using is in `.ruby-version`.
+  - [rvm](https://rvm.io/)
+  - [rbenv](https://github.com/rbenv/rbenv)
+    - [ruby-build](https://github.com/rbenv/ruby-build)
+    - [rbenv-gemset](https://github.com/jf/rbenv-gemset) (optional)
+
+
+## Local Development
+
 To run the site locally:
 
 ```
