@@ -28,3 +28,6 @@ There is a small test suite to test outgoing links, well formed HTML etc. To run
 bundle exec rake test
 ```
 
+## Deployment
+
+Deployment happens automatically from the `master` branch. Current production site is https://mossleyheritage.org/
